@@ -1,13 +1,15 @@
 
-import Link from 'next/Link'
+import Link from 'next/link'
 
 export default function Post({img}) {
   return (
     <div className="post">
-      <img
+      <Image
         className="postImg"
         src={img}
         alt=""
+        width={100}
+        height={50}
       />
       <div className="postInfo">
         <div className="postCats">

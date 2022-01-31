@@ -1,5 +1,5 @@
 import Post from "../post/Post";
-import Link from 'next/Link'
+import Link from 'next/link'
 
 export default function Posts() {
   return (

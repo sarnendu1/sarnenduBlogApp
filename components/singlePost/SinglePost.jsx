@@ -1,12 +1,12 @@
-import Link from 'next/Link'
+import Link from 'next/link'
 
 export default function SinglePost() {
   return (
     <div className="singlePost">
       <div className="singlePostWrapper">
-        <img
+        <Image
           className="singlePostImg"
-          src="https://images.pexels.com/photos/6685428/pexels-photo-6685428.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+          src=""
           alt=""
         />
         <h1 className="singlePostTitle">
