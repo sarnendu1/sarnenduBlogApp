@@ -9,8 +9,8 @@ export default function Post({img}) {
         className="postImg"
         src={img}
         alt=""
-        width={100}
-        height={50}
+        width={400}
+        height={300}
       />
       <div className="postInfo">
         <div className="postCats">

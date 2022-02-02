@@ -10,8 +10,10 @@ export default function Header() {
       </div>
     <Link href="" passHref><img
         className="headerImg"
-        src="https://images.pexels.com/photos/1167355/pexels-photo-1167355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        src="https://wallpaperaccess.com/full/1622640.jpg"
         alt=""
+        width="200"
+        height="400"
       />
       </Link>
     </div>
