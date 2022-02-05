@@ -13,7 +13,8 @@ export default function SinglePost() {
           className="singlePostImg"
           src="https://i.pinimg.com/originals/15/26/3f/15263f971e5b2b99e49a9855f4f810a0.jpg"
           alt=""
-          
+          width={}
+          height={}
          
         />
         <h1 className="singlePostTitle">

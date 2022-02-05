@@ -7,8 +7,10 @@ export default function Sidebar() {
       <div className="sidebarItem">
         <span className="sidebarTitle">ABOUT ME</span>
        <Link href="" passHref><Image
-          src="https://themegoods-cdn-pzbycso8wng.stackpathdns.com/grandblog/demo/wp-content/uploads/2015/11/aboutme.jpg"
+          src="/hero.png"
           alt=""
+          width={500}
+          height={500}
         />
         </Link>
         <p>
