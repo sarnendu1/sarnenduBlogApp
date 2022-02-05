@@ -39,7 +39,7 @@ Assuming that you have a blog, odds are you as of now comprehend the significanc
 
 
 
-Truly, numerous bloggers neglect to exploit the huge promoting capability of their online journals. Indeed, a new report by blogger.com shows that albeit generally 60% of organizations have web journals, 65% of those blog proprietors haven't refreshed in the previous year! By giving new, applicable substance and performing fundamental blog entry improvement, you can exploit the many advantages writing for a blog offers.
+Truly, numerous bloggers neglect to exploit the huge promoting capability of their online journals. Indeed, a new report by blogger.com shows that albeit generally 60% of organizations have web journals, 65% of those blog proprietors have not refreshed in the previous year! By giving new, applicable substance and performing fundamental blog entry improvement, you can exploit the many advantages writing for a blog offers.
 
 
 
@@ -64,7 +64,7 @@ Whenever you have designated a few significant, applicable watchwords, it is ess
 </ul>
 
 <h2 className='points'>An expression of alert</h2>
- Don't participate in watchword stuffing, which is the demonstration of filling your substance with such countless catchphrases that it becomes hard to peruse. Not exclusively will this bother your blog supporters, it will likewise get you punished by Google. A few decisively positioned catchphrases will get the job done.
+ Do not participate in watchword stuffing, which is the demonstration of filling your substance with such countless catchphrases that it becomes hard to peruse. Not exclusively will this bother your blog supporters, it will likewise get you punished by Google. A few decisively positioned catchphrases will get the job done.
 
 
 

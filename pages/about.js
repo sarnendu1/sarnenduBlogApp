@@ -36,13 +36,13 @@ const About = () => {
       </div>
 
     <div className='about-desc-box'>
-    <p className='about-desc'>Hi Friends,My name is Sarnendu, I'm a Web Developer with a passion for Web Designing And Developing, Making Videos On Youtube.
+    <p className='about-desc'>Hi Friends,My name is Sarnendu, I am a Web Developer with a passion for Web Designing And Developing, Making Videos On Youtube.
 
 I started Sarnendu with the idea of helping Students like yourself, by giving some Tech and Educational blogs and Youtube Videos.
 
-I know many programming languages like " <i> Html,Css,Javascript,Next Js,React Js,Node Js,Express Js,MongoDB,Php And Mysql</i>".
+I know many programming languages like `<i> Html,Css,Javascript,Next Js,React Js,Node Js,Express Js,MongoDB,Php And Mysql</i>``.
 
-Currently I'm Working At Techpranee As A Web Developer
+Currently I am Working At Techpranee As A Web Developer
 
 My Youtube Channels Names Are Sarnendu Official And Career Champions, You Can Visit My Channel And Check My Videos And If You Like My Videos Then You Can Subscribe.</p>
 </div>

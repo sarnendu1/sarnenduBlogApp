@@ -152,15 +152,15 @@ const Contact = () => {
                        
                        
                        
-                        <div class="form-check form-checkbox-style my-3 ">
+                        <div className=""="form-check form-checkbox-style my-3 ">
                       <input
-                        class="form-check-input"
+                        className=""="form-check-input"
                         type="checkbox"
                         value=""
                         id="flexCheckChecked"
                       />
                       <label
-                        class="form-check-label"
+                        className="form-check-label"
                         className="main-hero-para color2">
                         I agree that the thapatechnicalpay may contact me at the
                         email address or phone number above
@@ -198,7 +198,7 @@ const Contact = () => {
                       <div className="text pl-3">
                         <p>
                         <FaPhoneSquareAlt size={50}/>
-                          <Link href="tel:+918013024559"><span className="color4">+91 8013024559</span></Link>
+                          <Link passHref href="tel:+918013024559"><span className="color4">+91 8013024559</span></Link>
                         </p>
                       </div>
                     </div>
@@ -209,7 +209,7 @@ const Contact = () => {
                       <div className="text pl-3">
                         <p>
                           <FaEnvelopeSquare size={50}/>
-                          <Link href="mailto:sarnendu1@gmail.com">
+                          <Link passHref href="mailto:sarnendu1@gmail.com">
                           <span className="color4">sarnendu1@gmail.com</span> 
                           </Link>
                         </p>
@@ -222,7 +222,7 @@ const Contact = () => {
                       <div className="text pl-3">
                         <p>
                          <FaWhatsappSquare size={50}/>
-                          <Link href="https://wa.me/+918013024559"><span className="color4">+91 8013024559</span></Link>
+                          <Link passHref href="https://wa.me/+918013024559"><span className="color4">+91 8013024559</span></Link>
                         </p>
                       </div>
                     </div>
