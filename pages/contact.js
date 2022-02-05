@@ -160,8 +160,8 @@ const Contact = () => {
                         id="flexCheckChecked"
                       />
                       <label
-                        className="form-check-label"
-                        className="main-hero-para color2">
+                        className="form-check-label main-hero-para color2"
+                        >
                         I agree that the thapatechnicalpay may contact me at the
                         email address or phone number above
                       </label>
