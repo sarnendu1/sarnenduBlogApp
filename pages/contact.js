@@ -154,7 +154,7 @@ const Contact = () => {
                        
                         <div className="form-check form-checkbox-style my-3 ">
                       <input
-                        className=""="form-check-input"
+                        className="form-check-input"
                         type="checkbox"
                         value=""
                         id="flexCheckChecked"
