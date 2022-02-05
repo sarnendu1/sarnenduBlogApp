@@ -8,7 +8,7 @@ const Topbar =()=> {
     <>
 <Navbar collapseOnSelect expand="lg" fixed="top" >
   <Container>
-  <Link href="/"><span className='navbrand'>Sarnendu</span></Link>
+  <Link passHref href="/"><span className='navbrand'>Sarnendu</span></Link>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="me-auto">
@@ -22,11 +22,11 @@ const Topbar =()=> {
       </NavDropdown> */}
     </Nav>
     <Nav className='me-auto'>
-    <Link  href="/about"><span className="navlink">About</span></Link>
-      <Link href="/contact"><span className="navlink">Contact</span></Link>
-      <Link  href="/about"><span className="navlink">Blog</span></Link>
-      <Link href="/contact"><span className="navlink">Codes</span></Link>
-      <Link href="/contact"><span className="navlink">Youtube</span></Link>
+    <Link passHref  href="/about"><span className="navlink">About</span></Link>
+      <Link passHref href="/contact"><span className="navlink">Contact</span></Link>
+      <Link passHref href="/about"><span className="navlink">Blog</span></Link>
+      <Link passHref href="/contact"><span className="navlink">Codes</span></Link>
+      <Link passHref href="/contact"><span className="navlink">Youtube</span></Link>
      {/*  <Search /> */}
     </Nav>
   </Navbar.Collapse>
