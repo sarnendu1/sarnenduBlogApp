@@ -10,7 +10,7 @@ export default function Header() {
       </div>
     <Link href="" passHref><img
         className="headerImg"
-        src="https://wallpaperaccess.com/full/1622640.jpg"
+        src=""
         alt=""
         width="200"
         height="400"

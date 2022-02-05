@@ -5,6 +5,7 @@ import Image from 'next/image';
 export default function Post({img}) {
   return (
     <div className="post">
+      <Link href="/post1">
       <Image
         className="postImg"
         src={img}
@@ -12,6 +13,7 @@ export default function Post({img}) {
         width={400}
         height={300}
       />
+      </Link>
       <div className="postInfo">
         <div className="postCats">
           <span className="postCat">
@@ -26,19 +28,21 @@ export default function Post({img}) {
           </span>
         </div>
         <span className="postTitle">
-          <Link href="/post" className="link">
-          <h3>Lorem ipsum dolor sit amet</h3>  
+          <Link href="/post1" className="link">
+          <h3>How To Do Seo Correctly</h3>  
           </Link>
         </span>
         <hr />
         <span className="postDate">1 hour ago</span>
       </div>
+      <Link href="/post1">
       <p className="postDesc">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
         officia architecto deserunt deleniti? Labore ipsum aspernatur magnam
         fugiat, reprehenderit praesentium blanditiis quos cupiditate ratione
         atque, exercitationem quibusdam, reiciendis odio laboriosam?
       </p>
+      </Link>
     </div>
   );
 }

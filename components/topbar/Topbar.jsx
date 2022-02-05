@@ -1,18 +1,18 @@
 import React from 'react';
 import {Navbar,Container,Nav,NavDropdown} from 'react-bootstrap';
 import Link from 'next/link';
+/* import Search from '../Search' */
 
 const Topbar =()=> {
   return (
     <>
 <Navbar collapseOnSelect expand="lg" fixed="top" >
   <Container>
-  <Navbar.Brand href="/">Sarnendu</Navbar.Brand>
+  <Link href="/"><span className='navbrand'>Sarnendu</span></Link>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="me-auto">
-      <Link  href="/about"><span className="navlink">About</span></Link>
-      <Link href="/contact"><span className="navlink">Contact</span></Link>
+      
       {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
         <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
@@ -21,8 +21,13 @@ const Topbar =()=> {
         <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
       </NavDropdown> */}
     </Nav>
-    <Nav>
-      
+    <Nav className='me-auto'>
+    <Link  href="/about"><span className="navlink">About</span></Link>
+      <Link href="/contact"><span className="navlink">Contact</span></Link>
+      <Link  href="/about"><span className="navlink">Blog</span></Link>
+      <Link href="/contact"><span className="navlink">Codes</span></Link>
+      <Link href="/contact"><span className="navlink">Youtube</span></Link>
+     {/*  <Search /> */}
     </Nav>
   </Navbar.Collapse>
   </Container>

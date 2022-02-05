@@ -2,9 +2,10 @@ import React from "react";
 
 const api = [
     {
-        id: 1;
+        id: 1,
+        title: "How To Do Seo Correctly",
         image:{
-            url:''
+            url:"",
         }
     }
 ]
