@@ -17,7 +17,7 @@ const About = () => {
     src="/hero.png"
     width={280}
     height={250}
-    
+    alt=""
     />
     <div>
     <ul className='social'>
