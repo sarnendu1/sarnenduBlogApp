@@ -4,6 +4,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Topbar from '../components/topbar/Topbar'
 import {FaPhoneSquareAlt,FaEnvelopeSquare, FaWhatsappSquare} from "react-icons/fa";
+import Footer from "../components/footer/Footer";
 
 const Contact = () => {
   const [userData, setUserData] = useState({
@@ -234,6 +235,7 @@ const Contact = () => {
         </div>
       </div>
     </section>
+    <Footer />
     </>
   );
 };

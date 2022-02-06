@@ -1,3 +1,4 @@
+import Footer from "../components/footer/Footer";
 import Header from "../components/header/Header";
 import Posts from "../components/posts/Posts";
 import Sidebar from "../components/sidebar/Sidebar";
@@ -13,7 +14,8 @@ import Topbar from "../components/topbar/Topbar"
       <Header />
       <div className="home">
         <Posts />
-        <Sidebar />
+        {/* <Sidebar /> */}
+        <Footer />
       </div>
     </>
   );

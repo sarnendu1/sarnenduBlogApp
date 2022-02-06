@@ -71,8 +71,32 @@ a {
 .container {
   padding: 0 2rem;
 }
+.footer-container {
+  
+width: 100%;
+height: fit-content;
+display: flex;
+background: #602AC3;
+padding: 5%;
+color: white;
+justify-content: space-between;
+}
+.footer-container h2 {
+  color: white;
+  margin-bottom: 20px;
+}
 
-
+.footer-div {
+  width: 250px;
+}
+.footer-div ul{
+  list-style: none;
+  margin-left: -30px;
+}
+.footer-div2 {
+  width: 150px;
+  margin-bottom: 20px;
+}
 .main {
   min-height: 100vh;
   padding: 4rem 0;
@@ -179,11 +203,16 @@ a {
   margin-left: 0.5rem;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 767px) {
   .grid {
     width: 100%;
     flex-direction: column;
   }
+  .footer-container {
+  
+    display: flex;
+    flex-direction: column;
+    }
 }
 
 

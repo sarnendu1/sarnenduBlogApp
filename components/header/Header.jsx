@@ -8,12 +8,12 @@ export default function Header() {
         <span className="headerTitleSm">My</span>
         <span className="headerTitleLg">BLOG</span>
       </div>
-    <Link href="" passHref><Image
+    <Link href="" passHref><img
         className="headerImg"
-        src="/hero.png"
+        src=""
         alt=""
-        width={200}
-        height={400}
+        width="200"
+        height="400"
       />
       </Link>
     </div>

@@ -4,6 +4,7 @@ import { Container } from 'react-bootstrap';
 import Topbar from '../components/topbar/Topbar';
 import {FaFacebook, FaFacebookSquare, FaLinkedin, FaYoutube, FaYoutubeSquare} from "react-icons/fa";
 import Link from 'next/link';
+import Footer from '../components/footer/Footer';
 
 const About = () => {
   return (
@@ -49,7 +50,7 @@ My Youtube Channels Names Are Sarnendu Official And Career Champions, You Can Vi
 
 </Container>
 </center>
-    
+    <Footer />
   </>
   )
 };

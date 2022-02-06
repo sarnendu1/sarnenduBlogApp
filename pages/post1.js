@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image';
 import Topbar from '../components/topbar/Topbar';
+import Footer from '../components/footer/Footer';
 
 export default function SinglePost() {
   return (
@@ -9,12 +10,11 @@ export default function SinglePost() {
     <div className="singlePost">
       <div className="singlePostWrapper">
 
-        <Image
+        <img
           className="singlePostImg"
           src="https://i.pinimg.com/originals/15/26/3f/15263f971e5b2b99e49a9855f4f810a0.jpg"
           alt=""
-          width={500}
-          height={500}
+          
          
         />
         <h1 className="singlePostTitle">
@@ -96,6 +96,7 @@ By following these basic SEO tips, you can empower higher rankings in SERPS, exp
         </p>
       </div>
     </div>
+    <Footer />
     </>
   );
 }
