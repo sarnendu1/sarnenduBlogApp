@@ -1,14 +1,27 @@
 
 import Link from 'next/link'
 import Image from 'next/image';
+import api from '../../pages/api/api';
 
-export default function Post({img}) {
+
+export const getStaticProps= async()=>{
+  const res = await fetch("https://sarnendu-blog-app.vercel.app/api/api")
+  const data = await res.json();
+
+  return{
+    props: {
+      data,
+    },
+  };
+};
+
+export default function Post({data}) {
   return (
     <div className="post">
-      <Link passHref href="/post1">
+      <Link passHref href="/post">
       <Image
         className="postImg"
-        src={img}
+        src=""
         alt=""
         width={400}
         height={300}
@@ -28,14 +41,20 @@ export default function Post({img}) {
           </span>
         </div>
         <span className="postTitle">
-          <Link passHref href="/post1" className="link">
-          <h3>How To Do Seo Correctly</h3>  
+        {
+        data.map((curElem)=>{
+          return (
+            <div key={curElem.id}>
+          <Link passHref href={`/${curElem.id}`} className="link">
+          <h3>{curElem.title}</h3>  
           </Link>
+          </div>
+          )})}
         </span>
         <hr />
         <span className="postDate">1 hour ago</span>
       </div>
-      <Link passHref href="/post1">
+      <Link passHref href="">
       <p className="postDesc">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
         officia architecto deserunt deleniti? Labore ipsum aspernatur magnam

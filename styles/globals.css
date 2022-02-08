@@ -836,3 +836,8 @@ a {
   font-size: 20px;
   margin-left: 5px;
 }
+.color5 {
+  color: #602AC3;
+  text-decoration: none;
+  cursor: pointer;
+}
