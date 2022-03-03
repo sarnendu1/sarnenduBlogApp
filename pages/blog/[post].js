@@ -61,7 +61,7 @@ export default function SinglePost({curElem}) {
               <span>
                 Author:
                 <b className="singlePostAuthor">
-                  <Link href="/about">
+                  <Link passHref href="/about">
                    <span className="color5">Sarnendu Das</span>
                   </Link>
                 </b>

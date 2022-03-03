@@ -156,53 +156,53 @@ function menuBtnChange() {
       </div>
           )})}
     </div>
-    <div class="sidebar">
-    <div class="logo-details">
+    <div className="sidebar">
+    <div className="logo-details">
       {/* <i class='bx bxl-c-plus-plus icon'></i> */}
         {/* <div class="logo_name">CodingLab</div> */}
-        <i class='bx bx-menu' id="btn" ></i>
+        <i className='bx bx-menu' id="btn" ></i>
     </div>
-    <ul class="nav-list">
+    <ul className="nav-list">
       <li>
-          <i class='bx bx-search' ></i>
+          <i className='bx bx-search' ></i>
          <input type="text" placeholder="Search..." onChange={(e)=>search(e.target.value)}/>
-         <span class="tooltip">Search</span>
+         <span className="tooltip">Search</span>
       </li>
       <li>
         <a href="#">
-        <i class='bx bx-user-pin' ></i>
-          <span class="links_name">About</span>
+        <i className='bx bx-user-pin' ></i>
+          <span className="links_name">About</span>
         </a>
-         <span class="tooltip">About</span>
+         <span className="tooltip">About</span>
       </li>
       
      <li>
        <a href="#">
-       <i class='bx bxs-contact' ></i>
-         <span class="links_name">Contact</span>
+       <i className='bx bxs-contact' ></i>
+         <span className="links_name">Contact</span>
        </a>
-       <span class="tooltip">Contact</span>
+       <span className="tooltip">Contact</span>
      </li>
      <li>
        <a href="#">
-       <i class='bx bx-pen'></i>
-         <span class="links_name">Blog</span>
+       <i className='bx bx-pen'></i>
+         <span className="links_name">Blog</span>
        </a>
-       <span class="tooltip">Blog</span>
+       <span className="tooltip">Blog</span>
      </li>
      <li>
        <a href="#">
-       <i class='bx bx-code-alt'></i>
-         <span class="links_name">Codes</span>
+       <i className='bx bx-code-alt'></i>
+         <span className="links_name">Codes</span>
        </a>
-       <span class="tooltip">Codes</span>
+       <span className="tooltip">Codes</span>
      </li>
      <li>
        <a href="#">
-       <i class='bx bxl-youtube' ></i>
-         <span class="links_name">Youtube</span>
+       <i className='bx bxl-youtube' ></i>
+         <span className="links_name">Youtube</span>
        </a>
-       <span class="tooltip">Youtube</span>
+       <span className="tooltip">Youtube</span>
      </li>
     </ul>
   </div>
