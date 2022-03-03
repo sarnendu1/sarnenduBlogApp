@@ -1,11 +1,11 @@
 
 import Link from 'next/link'
 import Image from 'next/image';
-import api from '../../pages/api/api';
+import axios from 'axios';
 
 
-export const getStaticProps= async()=>{
-  const res = await fetch("https://sarnendu-blog-app.vercel.app/api/api")
+ export const getStaticProps = async() => {
+  const res = await fetch("https://sarnendu1.github.io/sarnendu-blog-app-api/api.json")
   const data = await res.json();
 
   return{
@@ -13,15 +13,21 @@ export const getStaticProps= async()=>{
       data,
     },
   };
-};
+}; 
 
-export default function Post({data}) {
+  const Post = ({data})=> {
+
   return (
+<>
     <div className="post">
-      <Link passHref href="/post">
+      
+    {data.map((curElem) => {
+          return (
+            <div key={curElem.id}>
+              <Link passHref href="/[post]">
       <Image
         className="postImg"
-        src=""
+        src={curElem.image.url}
         alt=""
         width={400}
         height={300}
@@ -41,15 +47,12 @@ export default function Post({data}) {
           </span>
         </div>
         <span className="postTitle">
-        {
-        data.map((curElem)=>{
-          return (
-            <div key={curElem.id}>
+        
+           
           <Link passHref href={`/${curElem.id}`} className="link">
-          <h3>{curElem.title}</h3>  
+          <h3>{curElem.name}</h3>  
           </Link>
-          </div>
-          )})}
+         
         </span>
         <hr />
         <span className="postDate">1 hour ago</span>
@@ -62,6 +65,11 @@ export default function Post({data}) {
         atque, exercitationem quibusdam, reiciendis odio laboriosam?
       </p>
       </Link>
+      </div>
+          )})}
     </div>
+    </>
   );
 }
+
+export default Post;

@@ -5,8 +5,23 @@ import "react-toastify/dist/ReactToastify.css";
 import Topbar from '../components/topbar/Topbar'
 import {FaPhoneSquareAlt,FaEnvelopeSquare, FaWhatsappSquare} from "react-icons/fa";
 import Footer from "../components/footer/Footer";
+import ReCAPTCHA from "react-google-recaptcha";
+
+
+
 
 const Contact = () => {
+
+  const [isVerified,setIsVerified] = useState(false);
+
+  function onChange(value) {
+
+  console.log("Captcha value:", value);
+
+  setIsVerified(true);
+
+}
+
   const [userData, setUserData] = useState({
     firstName: "",
     lastName: "",
@@ -153,23 +168,21 @@ const Contact = () => {
                        
                        
                        
-                        <div className="form-check form-checkbox-style my-3 ">
-                      <input
-                        className="form-check-input"
-                        type="checkbox"
-                        value=""
-                        id="flexCheckChecked"
-                      />
-                      <label
-                        className="form-check-label main-hero-para color2"
-                        >
-                        I agree that the thapatechnicalpay may contact me at the
-                        email address or phone number above
-                      </label>
-                    </div>
+                       
+                    <ReCAPTCHA
+
+                      className="recapcha"
+
+                      sitekey="6LfHN3ceAAAAAG5ad-jUhtGOHviJbjHcsRJzEZm5"
+
+                      onChange={onChange}
+
+                    />
+                     
                         <div className="col-md-12">
                           <div className="form-group">
                             <button
+                              disabled={!isVerified}
                               type="submit"
                               onClick={submitData}
                               
