@@ -1,4 +1,4 @@
-import React from 'react'
+/* import React from 'react'
 
 const data = () => {
   return (
@@ -12,4 +12,4 @@ const data = () => {
   )
 }
 
-export default data;
+export default data; */
