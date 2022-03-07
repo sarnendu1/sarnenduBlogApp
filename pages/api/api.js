@@ -1,4 +1,4 @@
-import React from "react";
+/* import React from "react";
 
 const api = [
     {
@@ -96,4 +96,4 @@ const api = [
     }
 ]
 
-export default api;
+export default api; */
