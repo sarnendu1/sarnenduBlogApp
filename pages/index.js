@@ -168,41 +168,55 @@ function menuBtnChange() {
          <span className="tooltip">Search</span>
       </li>
       <li>
-        <a href="/about">
+        <Link href="/about">
+        <a>
         <i className='bx bx-user-pin' ></i>
           <span className="links_name">About</span>
         
          <span className="tooltip">About</span>
          </a>
+         </Link>
       </li>
       
      <li>
-       <a href="/contact">
+     <Link href="/contact">
+       <a>
        <i className='bx bxs-contact' ></i>
          <span className="links_name">Contact</span>
-       </a>
+       
        <span className="tooltip">Contact</span>
+       </a>
+       </Link>
      </li>
      <li>
-       <a href="/categories/blog">
+       <Link href="/categories/blog">
+       <a>
        <i className='bx bx-pen'></i>
          <span className="links_name">Blog</span>
-       </a>
+       
        <span className="tooltip">Blog</span>
+       </a>
+       </Link>
      </li>
      <li>
-       <a href="/categories/codes">
+       <Link href="/categories/codes">
+       <a>
        <i className='bx bx-code-alt'></i>
          <span className="links_name">Codes</span>
-       </a>
+       
        <span className="tooltip">Codes</span>
+       </a>
+       </Link>
      </li>
      <li>
-       <a href="/categories/youtube">
+       <Link href="/categories/youtube" >
+       <a>
        <i className='bx bxl-youtube' ></i>
          <span className="links_name">Youtube</span>
-       </a>
+     
        <span className="tooltip">Youtube</span>
+       </a>
+       </Link>
      </li>
     </ul>
   </div>
