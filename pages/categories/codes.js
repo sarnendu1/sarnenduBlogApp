@@ -95,7 +95,7 @@ function menuBtnChange() {
     <Link passHref  href="/about"><span className="navlink">About</span></Link>
       <Link passHref href="/contact"><span className="navlink">Contact</span></Link>
       <Link passHref href="/categories/blog"><span className="navlink">Blog</span></Link>
-      <Link passHref href="/categories/codes"><span className="navlink">Codes</span></Link>
+      <Link passHref href="/categories/codes"><span className="navlink active">Codes</span></Link>
       <Link passHref href="/categories/youtube"><span className="navlink">Youtube</span></Link>
      {/*  <Search /> */}
     </Nav>

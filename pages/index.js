@@ -123,16 +123,18 @@ function menuBtnChange() {
       </Link>
       <div className="postInfo">
         <div className="postCats">
+        <Link passHref href="">
           <span className="postCat">
-            <Link passHref className="link" href="/posts?cat=Music">
-              Music
-            </Link>
+            
+              {data.category}
+            
           </span>
-          <span className="postCat">
+          </Link>
+          {/* <span className="postCat">
             <Link passHref className="link" href="/posts?cat=Music">
               Life
             </Link>
-          </span>
+          </span> */}
         </div>
         <span className="postTitle">
         
@@ -142,14 +144,11 @@ function menuBtnChange() {
           
         </span>
         <hr />
-        <span className="postDate">1 hour ago</span>
+       {/*  <span className="postDate">1 hour ago</span> */}
       </div>
       <Link passHref href="">
       <p className="postDesc">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
-        officia architecto deserunt deleniti? Labore ipsum aspernatur magnam
-        fugiat, reprehenderit praesentium blanditiis quos cupiditate ratione
-        atque, exercitationem quibusdam, reiciendis odio laboriosam?
+        {data.desc}
       </p>
       </Link>
     </div>
@@ -169,36 +168,37 @@ function menuBtnChange() {
          <span className="tooltip">Search</span>
       </li>
       <li>
-        <a href="#">
+        <a href="/about">
         <i className='bx bx-user-pin' ></i>
           <span className="links_name">About</span>
-        </a>
+        
          <span className="tooltip">About</span>
+         </a>
       </li>
       
      <li>
-       <a href="#">
+       <a href="/contact">
        <i className='bx bxs-contact' ></i>
          <span className="links_name">Contact</span>
        </a>
        <span className="tooltip">Contact</span>
      </li>
      <li>
-       <a href="#">
+       <a href="/categories/blog">
        <i className='bx bx-pen'></i>
          <span className="links_name">Blog</span>
        </a>
        <span className="tooltip">Blog</span>
      </li>
      <li>
-       <a href="#">
+       <a href="/categories/codes">
        <i className='bx bx-code-alt'></i>
          <span className="links_name">Codes</span>
        </a>
        <span className="tooltip">Codes</span>
      </li>
      <li>
-       <a href="#">
+       <a href="/categories/youtube">
        <i className='bx bxl-youtube' ></i>
          <span className="links_name">Youtube</span>
        </a>
