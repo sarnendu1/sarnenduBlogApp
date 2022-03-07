@@ -24,9 +24,9 @@ const Topbar =()=> {
     <Nav className='me-auto'>
     <Link passHref  href="/about"><span className="navlink">About</span></Link>
       <Link passHref href="/contact"><span className="navlink">Contact</span></Link>
-      <Link passHref href="/blog"><span className="navlink">Blog</span></Link>
-      <Link passHref href="/codes"><span className="navlink">Codes</span></Link>
-      <Link passHref href="/youtube"><span className="navlink">Youtube</span></Link>
+      <Link passHref href="/categories/blog"><span className="navlink">Blog</span></Link>
+      <Link passHref href="/categories/codes"><span className="navlink">Codes</span></Link>
+      <Link passHref href="/categories/youtube"><span className="navlink">Youtube</span></Link>
      {/*  <Search /> */}
     </Nav>
   </Navbar.Collapse>

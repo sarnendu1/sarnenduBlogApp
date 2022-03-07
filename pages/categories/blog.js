@@ -1,8 +1,8 @@
-import Footer from "../components/footer/Footer";
-import Header from "../components/header/Header";
-import Posts from "../components/posts/Posts";
-import Sidebar from "../components/sidebar/Sidebar";
-import Topbar from "../components/topbar/Topbar"
+import Footer from "../../components/footer/Footer";
+import Header from "../../components/header/Header";
+import Posts from "../../components/posts/Posts";
+import Sidebar from "../../components/sidebar/Sidebar";
+import Topbar from "../../components/topbar/Topbar"
 import Link from "next/link";
 import Image from "next/image";
 import fetch from 'isomorphic-fetch';
@@ -35,15 +35,12 @@ export const getStaticProps = async() => {
       
       setPost(post);
     }
-  
-    const [post,setPost] = useState(data);
+    const updatePost= data.filter((data) =>{
+        return data.category === "blog";
+      })
+    const [post,setPost] = useState(updatePost);
 
-    const filterPost =(category)=>{
-      const updatePost= data.filter((data) =>{
-          return data.category === category;
-        })
-        setPost(updatePost);
-    }
+    
     useEffect(() => {
       let sidebar = document.querySelector(".sidebar");
 let closeBtn = document.querySelector("#btn");
