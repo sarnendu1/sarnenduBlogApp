@@ -19,12 +19,14 @@ import Link from "next/link";
             <h2>Links</h2>
                 <ul>
                     <Link href="/"><li className="pointer">Home</li></Link>
-                    
                     <Link href="categories/blog"><li className="pointer">Blog</li></Link>
                     <Link href="categories/codes"><li className="pointer">Codes</li></Link>
                     <Link href="categories/youtube"><li className="pointer">Youtube</li></Link>
                     <Link href="/about"><li className="pointer">About</li></Link>
                     <Link href="/contact"><li className="pointer">Contact</li></Link>
+                    <Link href="/term"><li className="pointer">Terms And Conditions</li></Link>
+                    <Link href="/policy"><li className="pointer">Privacy Policy</li></Link>
+                    <Link href="/disclaimer"><li className="pointer">Disclaimer</li></Link>
                 </ul>
             
         </div>

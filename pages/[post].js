@@ -62,7 +62,7 @@ export default function SinglePost({data}) {
       <>
       <Head>
     <meta name="google-site-verification" content="qLTRg4l6MikI9dOSvLrarEtEhi5qI2IVrmsLmGr_zuk" />
-      <title>Purple Glib</title>
+      <title>{data.title}</title>
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet' />
     </Head>
        <Navbar collapseOnSelect expand="lg" fixed="top" >
