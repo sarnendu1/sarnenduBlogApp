@@ -26,7 +26,7 @@ export const getStaticProps = async() => {
   };
 }; 
 
-  const Home =({data})=> {
+  const Blog =({data})=> {
 
     
 
@@ -35,12 +35,17 @@ export const getStaticProps = async() => {
       
       setPost(post);
     }
-    const updatePost= data.filter((data) =>{
-        return data.category === "blog";
-      })
-    const [post,setPost] = useState(updatePost);
+  
+    
 
     
+      const updatePost= data.filter((data) =>{
+          return data.category === "blog";
+        })
+        
+    
+    const [post,setPost] = useState(updatePost);
+
     useEffect(() => {
       let sidebar = document.querySelector(".sidebar");
 let closeBtn = document.querySelector("#btn");
@@ -73,7 +78,9 @@ function menuBtnChange() {
     
   return (
     <>
-    <Head>
+        <Head>
+    <meta name="google-site-verification" content="qLTRg4l6MikI9dOSvLrarEtEhi5qI2IVrmsLmGr_zuk" />
+      <title>Purple Glib</title>
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet' />
     </Head>
     <Navbar collapseOnSelect expand="lg" fixed="top" >
@@ -94,7 +101,7 @@ function menuBtnChange() {
     <Nav className='me-auto'>
     <Link passHref  href="/about"><span className="navlink">About</span></Link>
       <Link passHref href="/contact"><span className="navlink">Contact</span></Link>
-      <Link passHref href="/categories/blog"><span className="navlink active">Blog</span></Link>
+      <Link passHref href="/categories/blog"><span className="navlink">Blog</span></Link>
       <Link passHref href="/categories/codes"><span className="navlink">Codes</span></Link>
       <Link passHref href="/categories/youtube"><span className="navlink">Youtube</span></Link>
      {/*  <Search /> */}
@@ -120,16 +127,18 @@ function menuBtnChange() {
       </Link>
       <div className="postInfo">
         <div className="postCats">
+        <Link passHref href="">
           <span className="postCat">
-            <Link passHref className="link" href="/posts?cat=Music">
-              Music
-            </Link>
+            
+              {data.category}
+            
           </span>
-          <span className="postCat">
+          </Link>
+          {/* <span className="postCat">
             <Link passHref className="link" href="/posts?cat=Music">
               Life
             </Link>
-          </span>
+          </span> */}
         </div>
         <span className="postTitle">
         
@@ -139,14 +148,11 @@ function menuBtnChange() {
           
         </span>
         <hr />
-        <span className="postDate">1 hour ago</span>
+       {/*  <span className="postDate">1 hour ago</span> */}
       </div>
       <Link passHref href="">
       <p className="postDesc">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
-        officia architecto deserunt deleniti? Labore ipsum aspernatur magnam
-        fugiat, reprehenderit praesentium blanditiis quos cupiditate ratione
-        atque, exercitationem quibusdam, reiciendis odio laboriosam?
+        {data.desc}
       </p>
       </Link>
     </div>
@@ -166,40 +172,55 @@ function menuBtnChange() {
          <span className="tooltip">Search</span>
       </li>
       <li>
-        <a href="#">
+        <Link href="/about">
+        <a>
         <i className='bx bx-user-pin' ></i>
           <span className="links_name">About</span>
-        </a>
+        
          <span className="tooltip">About</span>
+         </a>
+         </Link>
       </li>
       
      <li>
-       <a href="#">
+     <Link href="/contact">
+       <a>
        <i className='bx bxs-contact' ></i>
          <span className="links_name">Contact</span>
-       </a>
+       
        <span className="tooltip">Contact</span>
+       </a>
+       </Link>
      </li>
      <li>
-       <a href="#">
+       <Link href="/categories/blog">
+       <a>
        <i className='bx bx-pen'></i>
          <span className="links_name">Blog</span>
-       </a>
+       
        <span className="tooltip">Blog</span>
+       </a>
+       </Link>
      </li>
      <li>
-       <a href="#">
+       <Link href="/categories/codes">
+       <a>
        <i className='bx bx-code-alt'></i>
          <span className="links_name">Codes</span>
-       </a>
+       
        <span className="tooltip">Codes</span>
+       </a>
+       </Link>
      </li>
      <li>
-       <a href="#">
+       <Link href="/categories/youtube" >
+       <a>
        <i className='bx bxl-youtube' ></i>
          <span className="links_name">Youtube</span>
-       </a>
+     
        <span className="tooltip">Youtube</span>
+       </a>
+       </Link>
      </li>
     </ul>
   </div>
@@ -212,4 +233,4 @@ function menuBtnChange() {
 
 
 
-export default Home;
+export default Blog;

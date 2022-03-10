@@ -18,13 +18,13 @@ import Link from "next/link";
         <div className="footer-div3">
             <h2>Links</h2>
                 <ul>
-                    <li>Home</li>
+                    <Link href="/"><li className="pointer">Home</li></Link>
                     
-                    <li>Blog</li>
-                    <li>Codes</li>
-                    <li>Youtube</li>
-                    <li>About</li>
-                    <li>Contact</li>
+                    <Link href="categories/blog"><li className="pointer">Blog</li></Link>
+                    <Link href="categories/codes"><li className="pointer">Codes</li></Link>
+                    <Link href="categories/youtube"><li className="pointer">Youtube</li></Link>
+                    <Link href="/about"><li className="pointer">About</li></Link>
+                    <Link href="/contact"><li className="pointer">Contact</li></Link>
                 </ul>
             
         </div>

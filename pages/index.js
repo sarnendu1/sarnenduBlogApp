@@ -77,11 +77,13 @@ function menuBtnChange() {
   return (
     <>
     <Head>
+    <meta name="google-site-verification" content="qLTRg4l6MikI9dOSvLrarEtEhi5qI2IVrmsLmGr_zuk" />
+      <title>Purple Glib</title>
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet' />
     </Head>
     <Navbar collapseOnSelect expand="lg" fixed="top" >
   <Container>
-  <Link passHref href="/"><span className='navbrand'>Sarnendu</span></Link>
+  <Link passHref href="/"><span className='navbrand'>Purple Glib</span></Link>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="me-auto">

@@ -10,9 +10,9 @@ export default function Header() {
       </div>
     <Link href="" passHref><img
         className="headerImg"
-        src="https://i.pinimg.com/564x/dc/f8/db/dcf8db43a7d5c2d94d8a291aa4b3337a.jpg"
+        src="https://i.pinimg.com/564x/1c/c8/cc/1cc8cc57e387fe9562395dfff50a2d1c.jpg"
         alt=""
-        width="100%"
+        
         height="400"
       />
       </Link>
