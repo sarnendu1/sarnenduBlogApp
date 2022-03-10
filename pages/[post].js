@@ -6,6 +6,7 @@ import { useRouter } from 'next/router';
 import fetch from 'isomorphic-fetch';
 import {Navbar,Container,Nav,NavDropdown} from 'react-bootstrap';
 import { useState } from 'react';
+import Head from 'next/head';
 
 
 export const getStaticPaths = async()=>{
