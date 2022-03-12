@@ -10,6 +10,7 @@ import { useState } from "react";
 import {Navbar,Container,Nav,NavDropdown} from 'react-bootstrap';
 import Head from "next/head";
 import { useEffect } from "react";
+import { NextSeo } from 'next-seo';
 
 
 /* import "./homepage.css"; */
@@ -76,9 +77,14 @@ function menuBtnChange() {
     
   return (
     <>
+    <NextSeo
+      title="Purple Glib"
+      description="Welcome to Purple Glib"
+
+    />
     <Head>
     <meta name="google-site-verification" content="qLTRg4l6MikI9dOSvLrarEtEhi5qI2IVrmsLmGr_zuk" />
-      <title>Purple Glib</title>
+    <meta name="keywords" content="tech,seo" />
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet' />
     </Head>
     <Navbar collapseOnSelect expand="lg" fixed="top" >
@@ -119,7 +125,7 @@ function menuBtnChange() {
       <img
         className="postImg"
         src={data.image.url}
-        alt=""
+        alt={data.title}
        
       />
       </Link>

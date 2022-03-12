@@ -3,13 +3,18 @@ import Head from 'next/head';
 import Footer from '../components/footer/Footer';
 import {Navbar,Container,Nav,NavDropdown} from 'react-bootstrap';
 import Link from 'next/link';
+import { NextSeo } from 'next-seo';
 
 const policy = () => {
   return (
     <>
+    <NextSeo
+      title="Privacy Policy"
+      description="Welcome to the privacy policy page"
+    />
  <Head>
     <meta name="google-site-verification" content="qLTRg4l6MikI9dOSvLrarEtEhi5qI2IVrmsLmGr_zuk" />
-      <title>Privacy Policy</title>
+    <meta name="keywords" content="tech,seo" />
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet' />
     </Head>
    <Navbar collapseOnSelect expand="lg" fixed="top" >

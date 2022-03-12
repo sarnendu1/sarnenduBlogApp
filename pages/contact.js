@@ -9,6 +9,7 @@ import ReCAPTCHA from "react-google-recaptcha";
 import {Navbar,Container,Nav,NavDropdown} from 'react-bootstrap';
 import Head from "next/head";
 import { useEffect } from "react";
+import { NextSeo } from 'next-seo';
 
 
 const Contact = () => {
@@ -114,9 +115,14 @@ if(sidebar.classList.contains("open")){
 
   return (
     <>
+     <NextSeo
+      title="Contact"
+      description="Welcome to the contact us page"
+      
+    />
         <Head>
     <meta name="google-site-verification" content="qLTRg4l6MikI9dOSvLrarEtEhi5qI2IVrmsLmGr_zuk" />
-      <title>Purple Glib</title>
+    <meta name="keywords" content="tech,seo" />
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet' />
     </Head>
     <Navbar collapseOnSelect expand="lg" fixed="top" >

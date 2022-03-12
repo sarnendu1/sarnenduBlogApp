@@ -7,6 +7,7 @@ import fetch from 'isomorphic-fetch';
 import {Navbar,Container,Nav,NavDropdown} from 'react-bootstrap';
 import { useState } from 'react';
 import Head from 'next/head';
+import { NextSeo } from 'next-seo';
 
 
 export const getStaticPaths = async()=>{
@@ -60,9 +61,13 @@ export default function SinglePost({data}) {
   
   return (
       <>
+        <NextSeo
+      title={data.title}
+      description={data.desc}
+    />
       <Head>
     <meta name="google-site-verification" content="qLTRg4l6MikI9dOSvLrarEtEhi5qI2IVrmsLmGr_zuk" />
-      <title>{data.title}</title>
+    <meta name="keywords" content={data.keywords} />
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet' />
     </Head>
        <Navbar collapseOnSelect expand="lg" fixed="top" >
@@ -109,7 +114,7 @@ export default function SinglePost({data}) {
 
           src={data.image.url}
           className="feature-img"
-
+          alt={data.title}
           />
           </div>
           
