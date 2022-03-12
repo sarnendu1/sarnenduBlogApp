@@ -62,7 +62,7 @@ export default function SinglePost({data}) {
   return (
       <>
         <NextSeo
-      title={data.title}
+      title={data.metatitle}
       description={data.desc}
     />
       <Head>
