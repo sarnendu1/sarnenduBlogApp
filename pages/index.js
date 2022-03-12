@@ -82,7 +82,7 @@ function menuBtnChange() {
       description="Welcome to Purple Glib"
 
     />
-    <Head lang="en-US">
+    <Head>
     <meta name="google-site-verification" content="qLTRg4l6MikI9dOSvLrarEtEhi5qI2IVrmsLmGr_zuk" />
     <meta name="keywords" content="tech,seo" />
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet' />
