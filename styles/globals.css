@@ -314,7 +314,7 @@ justify-content: space-between;
   margin-top: 15px;
   cursor: pointer;
 }
-.postTitle h3:hover {
+.postTitle h1:hover {
   color: #3c128b;
 }
 
