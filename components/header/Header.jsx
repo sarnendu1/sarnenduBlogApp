@@ -11,7 +11,7 @@ export default function Header() {
     <Link href="" passHref><img
         className="headerImg"
         src="https://i.pinimg.com/564x/1c/c8/cc/1cc8cc57e387fe9562395dfff50a2d1c.jpg"
-        alt=""
+        alt="banner"
         
         height="400"
       />

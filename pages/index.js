@@ -86,6 +86,7 @@ function menuBtnChange() {
     <meta name="google-site-verification" content="qLTRg4l6MikI9dOSvLrarEtEhi5qI2IVrmsLmGr_zuk" />
     <meta name="keywords" content="tech,seo" />
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet' />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
     </Head>
     <Navbar collapseOnSelect expand="lg" fixed="top" >
   <Container>
@@ -147,7 +148,7 @@ function menuBtnChange() {
         <span className="postTitle">
         
           <Link passHref href={`/${data.id}`} className="link">
-          <h3>{data.title}</h3>  
+          <h1>{data.title}</h1>  
           </Link>
           
         </span>
