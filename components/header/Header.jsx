@@ -6,16 +6,10 @@ export default function Header() {
     <div className="header">
       <div className="headerTitles">
         
-        <span className="headerTitleLg">BLOG</span>
+        <h1 className="headerTitleLg">WELCOME</h1>
       </div>
-    <Link href="" passHref><img
-        className="headerImg"
-        src="https://i.pinimg.com/564x/1c/c8/cc/1cc8cc57e387fe9562395dfff50a2d1c.jpg"
-        alt="banner"
-        
-        height="400"
-      />
-      </Link>
+    <div className='headerImg'>
+    </div>
     </div>
   );
 }

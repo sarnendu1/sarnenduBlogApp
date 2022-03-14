@@ -20,7 +20,7 @@ const term = () => {
     </Head>
    <Navbar collapseOnSelect expand="lg" fixed="top" >
   <Container>
-  <Link passHref href="/"><span className='navbrand'>Sarnendu</span></Link>
+  <Link passHref href="/"><span className='navbrand'>Purple Glib</span></Link>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="me-auto">

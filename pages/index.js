@@ -78,8 +78,8 @@ function menuBtnChange() {
   return (
     <>
     <NextSeo
-      title="Purple Glib"
-      description="Welcome to Purple Glib"
+      title="Purple Glib - Welcome To Tech World"
+      description="Welcome to Purple Glib. Here you will find tech blogs,codes and youtube videos about technology and coding."
 
     />
     <Head>
@@ -148,7 +148,7 @@ function menuBtnChange() {
         <span className="postTitle">
         
           <Link passHref href={`/${data.id}`} className="link">
-          <h1>{data.title}</h1>  
+          <h2>{data.title}</h2>  
           </Link>
           
         </span>
