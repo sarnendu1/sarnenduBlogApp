@@ -119,6 +119,7 @@ My Youtube Channels Names Are Sarnendu Official And Career Champions, You Can Vi
 
 </Container>
 </center>
+<div className="sidebar-display">
 <div className="sidebar">
     <div className="logo-details">
       {/* <i class='bx bxl-c-plus-plus icon'></i> */}
@@ -183,6 +184,7 @@ My Youtube Channels Names Are Sarnendu Official And Career Champions, You Can Vi
        </Link>
      </li>
     </ul>
+  </div>
   </div>
     <Footer />
   </>

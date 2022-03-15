@@ -6,10 +6,10 @@ export default function Header() {
     <div className="header">
       <div className="headerTitles">
         
-        <h1 className="headerTitleLg">WELCOME</h1>
+        
       </div>
-    <div className='headerImg'>
-    </div>
+    
+    
     </div>
   );
 }

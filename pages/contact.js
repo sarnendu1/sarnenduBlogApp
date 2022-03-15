@@ -315,6 +315,7 @@ if(sidebar.classList.contains("open")){
         </div>
       </div>
     </section>
+    <div className="sidebar-display">
     <div className="sidebar">
     <div className="logo-details">
       {/* <i class='bx bxl-c-plus-plus icon'></i> */}
@@ -379,6 +380,7 @@ if(sidebar.classList.contains("open")){
        </Link>
      </li>
     </ul>
+  </div>
   </div>
     <Footer />
     </>

@@ -78,7 +78,7 @@ function menuBtnChange() {
   return (
     <>
     <NextSeo
-      title="Purple Glib - Welcome To Tech World"
+      title="Purple Glib"
       description="Welcome to Purple Glib. Here you will find tech blogs,codes and youtube videos about technology and coding."
 
     />
@@ -164,6 +164,7 @@ function menuBtnChange() {
       </div>
           )})}
     </div>
+    <div className="sidebar-display">
     <div className="sidebar">
     <div className="logo-details">
       {/* <i class='bx bxl-c-plus-plus icon'></i> */}
@@ -228,6 +229,7 @@ function menuBtnChange() {
        </Link>
      </li>
     </ul>
+  </div>
   </div>
 
         <Footer />
