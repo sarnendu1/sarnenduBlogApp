@@ -44,7 +44,7 @@ const Download = () => {
 <Head>
   
  
-  <Script src="https://kit.fontawesome.com/e48d166edc.js" crossorigin="anonymous" />
+  
 
   
   
@@ -57,7 +57,7 @@ const Download = () => {
     <div className="pleaseWait-text">Please Wait...</div>
     <div className="manualDownload-text">Direct Link <Link href="" className="manualDownload-link">click here.</Link></div>
   </div>
-
+  <Script src="https://kit.fontawesome.com/e48d166edc.js" crossorigin="anonymous" />
     </>
   )
 }
