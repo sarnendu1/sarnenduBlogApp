@@ -138,7 +138,7 @@ export default function SinglePost({data}) {
        
       
         
-   
+   {data.hh}
       
     <Footer />
     </>
