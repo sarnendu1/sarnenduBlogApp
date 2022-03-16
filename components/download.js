@@ -1,6 +1,8 @@
 import React from 'react'
 import Head from "next/head";
 import { useEffect } from 'react';
+import Link from 'next/link';
+import Script from 'next/script';
 
 const Download = () => {
 
@@ -42,7 +44,7 @@ const Download = () => {
 <Head>
   
  
-  <script src="https://kit.fontawesome.com/e48d166edc.js" crossorigin="anonymous"></script>
+  <Script src="https://kit.fontawesome.com/e48d166edc.js" crossorigin="anonymous" />
 
   
   
