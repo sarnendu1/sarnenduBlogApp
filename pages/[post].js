@@ -138,7 +138,7 @@ export default function SinglePost({data}) {
        
       
         
-   {data.hh}
+        <div className='content' dangerouslySetInnerHTML={{ __html: data.hh }}></div>
       
     <Footer />
     </>
