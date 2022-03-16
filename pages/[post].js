@@ -8,6 +8,8 @@ import {Navbar,Container,Nav,NavDropdown} from 'react-bootstrap';
 import { useState } from 'react';
 import Head from 'next/head';
 import { NextSeo } from 'next-seo';
+import Download from '../components/download';
+
 
 
 export const getStaticPaths = async()=>{
@@ -133,8 +135,9 @@ export default function SinglePost({data}) {
           
           </div>
         </div>
-        
        
+      
+        
    
       
     <Footer />
