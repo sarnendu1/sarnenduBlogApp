@@ -44,16 +44,16 @@ const Download = () => {
  
   <script src="https://kit.fontawesome.com/e48d166edc.js" crossorigin="anonymous"></script>
 
-  <link rel="stylesheet" href="style.css" />
+  
   
 
 </Head>
 
-  <div class="download-container">
-    <a href="#" class="download-btn"> <i class="fas fa-cloud-download-alt "></i> Download Now</a>
-    <div class="countdown"></div>
-    <div class="pleaseWait-text">Please Wait...</div>
-    <div class="manualDownload-text">Direct Link <a href="" class="manualDownload-link">click here.</a></div>
+  <div className="download-container">
+    <Link href="#" className="download-btn"> <i className="fas fa-cloud-download-alt "></i> Download Now</Link>
+    <div className="countdown"></div>
+    <div className="pleaseWait-text">Please Wait...</div>
+    <div className="manualDownload-text">Direct Link <Link href="" className="manualDownload-link">click here.</Link></div>
   </div>
 
     </>
