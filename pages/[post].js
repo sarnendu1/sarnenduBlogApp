@@ -8,7 +8,6 @@ import {Navbar,Container,Nav,NavDropdown} from 'react-bootstrap';
 import { useState } from 'react';
 import Head from 'next/head';
 import { NextSeo } from 'next-seo';
-import Download from './d/download';
 import ReCAPTCHA from "react-google-recaptcha";
 
 
