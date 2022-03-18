@@ -118,7 +118,13 @@ if(sidebar.classList.contains("open")){
      <NextSeo
       title="Contact"
       description="Welcome to the contact us page"
-      
+      additionalLinkTags={[
+        {
+          rel: 'icon',
+          href: '/favicon.png',
+        }
+       
+      ]}
     />
         <Head>
     <meta name="google-site-verification" content="qLTRg4l6MikI9dOSvLrarEtEhi5qI2IVrmsLmGr_zuk" />
@@ -127,6 +133,7 @@ if(sidebar.classList.contains("open")){
     </Head>
     <Navbar collapseOnSelect expand="lg" fixed="top" >
   <Container>
+  <img src="/favicon.png" alt="" className='favicon' />
   <Link passHref href="/"><span className='navbrand'>Purple Glib</span></Link>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">

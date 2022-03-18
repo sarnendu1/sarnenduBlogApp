@@ -80,7 +80,13 @@ function menuBtnChange() {
     <NextSeo
       title="Purple Glib"
       description="Welcome to Purple Glib. Here you will find tech blogs,codes and youtube videos about technology and coding."
-
+      additionalLinkTags={[
+        {
+          rel: 'icon',
+          href: '/favicon.png',
+        }
+       
+      ]}
     />
     <Head>
     <meta name="google-site-verification" content="qLTRg4l6MikI9dOSvLrarEtEhi5qI2IVrmsLmGr_zuk" />
@@ -90,6 +96,7 @@ function menuBtnChange() {
     </Head>
     <Navbar collapseOnSelect expand="lg" fixed="top" >
   <Container>
+  <img src="/favicon.png" alt="" className='favicon' />
   <Link passHref href="/"><span className='navbrand'>Purple Glib</span></Link>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">

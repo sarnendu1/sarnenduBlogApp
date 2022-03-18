@@ -10,6 +10,7 @@ import { useState } from "react";
 import {Navbar,Container,Nav,NavDropdown} from 'react-bootstrap';
 import Head from "next/head";
 import { useEffect } from "react";
+import { NextSeo } from 'next-seo';
 
 
 
@@ -74,6 +75,17 @@ function menuBtnChange() {
     
   return (
     <>
+    <NextSeo
+      title="Codes"
+      description="Welcome to Codes page"
+      additionalLinkTags={[
+        {
+          rel: 'icon',
+          href: '/favicon.png',
+        }
+       
+      ]}
+    />
         <Head>
     <meta name="google-site-verification" content="qLTRg4l6MikI9dOSvLrarEtEhi5qI2IVrmsLmGr_zuk" />
       <title>Purple Glib</title>
@@ -81,6 +93,7 @@ function menuBtnChange() {
     </Head>
     <Navbar collapseOnSelect expand="lg" fixed="top" >
   <Container>
+  <img src="/favicon.png" alt="" className='favicon' />
   <Link passHref href="/"><span className='navbrand'>Purple Glib</span></Link>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
@@ -124,15 +137,9 @@ function menuBtnChange() {
       <div className="postInfo">
         <div className="postCats">
           <span className="postCat">
-            <Link passHref className="link" href="/posts?cat=Music">
-              Music
-            </Link>
+          {data.category}
           </span>
-          <span className="postCat">
-            <Link passHref className="link" href="/posts?cat=Music">
-              Life
-            </Link>
-          </span>
+          
         </div>
         <span className="postTitle">
         
@@ -146,10 +153,7 @@ function menuBtnChange() {
       </div>
       <Link passHref href="">
       <p className="postDesc">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
-        officia architecto deserunt deleniti? Labore ipsum aspernatur magnam
-        fugiat, reprehenderit praesentium blanditiis quos cupiditate ratione
-        atque, exercitationem quibusdam, reiciendis odio laboriosam?
+      {data.desc}
       </p>
       </Link>
     </div>

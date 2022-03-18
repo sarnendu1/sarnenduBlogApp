@@ -10,6 +10,7 @@ import { useState } from "react";
 import {Navbar,Container,Nav,NavDropdown} from 'react-bootstrap';
 import Head from "next/head";
 import { useEffect } from "react";
+import { NextSeo } from 'next-seo';
 
 
 /* import "./homepage.css"; */
@@ -78,6 +79,17 @@ function menuBtnChange() {
     
   return (
     <>
+    <NextSeo
+      title="Blog"
+      description="Welcome to Blog page"
+      additionalLinkTags={[
+        {
+          rel: 'icon',
+          href: '/favicon.png',
+        }
+       
+      ]}
+    />
         <Head>
     <meta name="google-site-verification" content="qLTRg4l6MikI9dOSvLrarEtEhi5qI2IVrmsLmGr_zuk" />
       <title>Purple Glib</title>
@@ -85,6 +97,7 @@ function menuBtnChange() {
     </Head>
     <Navbar collapseOnSelect expand="lg" fixed="top" >
   <Container>
+  <img src="/favicon.png" alt="" className='favicon' />
   <Link passHref href="/"><span className='navbrand'>Purple Glib</span></Link>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">

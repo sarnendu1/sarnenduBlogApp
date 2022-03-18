@@ -8,7 +8,8 @@ import {Navbar,Container,Nav,NavDropdown} from 'react-bootstrap';
 import { useState } from 'react';
 import Head from 'next/head';
 import { NextSeo } from 'next-seo';
-import Download from '../components/download';
+import Download from './d/download';
+import ReCAPTCHA from "react-google-recaptcha";
 
 
 
@@ -45,6 +46,16 @@ export const getStaticPaths = async()=>{
 
 export default function SinglePost({data}) {
 
+  const [isVerified,setIsVerified] = useState(false);
+
+  function onChange(value) {
+
+  console.log("Captcha value:", value);
+
+  setIsVerified(true);
+
+}
+
   const search=(category)=>{
     console.warn(category);
     
@@ -66,6 +77,13 @@ export default function SinglePost({data}) {
         <NextSeo
       title={data.metatitle}
       description={data.desc}
+      additionalLinkTags={[
+        {
+          rel: 'icon',
+          href: '/favicon.png',
+        }
+       
+      ]}
     />
       <Head>
     <meta name="google-site-verification" content="qLTRg4l6MikI9dOSvLrarEtEhi5qI2IVrmsLmGr_zuk" />
@@ -74,6 +92,7 @@ export default function SinglePost({data}) {
     </Head>
        <Navbar collapseOnSelect expand="lg" fixed="top" >
   <Container>
+    <img src="/favicon.png" alt="" className='favicon' />
   <Link passHref href="/"><span className='navbrand'>Purple Glib</span></Link>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
@@ -137,8 +156,16 @@ export default function SinglePost({data}) {
         </div>
        
       
-        
-        <div dangerouslySetInnerHTML={{ __html: data.hh }}></div>
+        <ReCAPTCHA
+
+                      className="recapcha"
+
+                      sitekey="6LfHN3ceAAAAAG5ad-jUhtGOHviJbjHcsRJzEZm5"
+
+                      onChange={onChange}
+
+                    />
+       <div dangerouslySetInnerHTML={{ __html: data.download }}></div>
       
     <Footer />
     </>

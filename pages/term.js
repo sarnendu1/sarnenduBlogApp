@@ -11,6 +11,13 @@ const term = () => {
      <NextSeo
       title="Terms And Conditions"
       description="Welcome to Terms And Conditions page"
+      additionalLinkTags={[
+        {
+          rel: 'icon',
+          href: '/favicon.png',
+        }
+       
+      ]}
 
     />
         <Head>
@@ -20,6 +27,7 @@ const term = () => {
     </Head>
    <Navbar collapseOnSelect expand="lg" fixed="top" >
   <Container>
+  <img src="/favicon.png" alt="" className='favicon' />
   <Link passHref href="/"><span className='navbrand'>Purple Glib</span></Link>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
