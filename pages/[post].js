@@ -9,6 +9,9 @@ import { useState } from 'react';
 import Head from 'next/head';
 import { NextSeo } from 'next-seo';
 import ReCAPTCHA from "react-google-recaptcha";
+import Download from '../components/download/download';
+import { useEffect } from 'react';
+import Script from 'next/script';
 
 
 
@@ -44,6 +47,67 @@ export const getStaticPaths = async()=>{
 
 
 export default function SinglePost({data}) {
+
+
+  useEffect(() => {
+   
+    const downloadBtn = document.querySelector(".download-btn");
+    const countdown = document.querySelector(".countdown");
+    const pleaseWaitText = document.querySelector(".pleaseWait-text");
+    const manualDownloadText = document.querySelector(".manualDownload-text");
+    
+    var timeLeft = 30;
+  
+    downloadBtn.addEventListener("click", () => {
+      downloadBtn.style.display = "none";
+      countdown.innerHTML = "Your download will start in <span>" + timeLeft + "</span> seconds."  //for quick start of countdown
+  
+      var downloadTimer = setInterval(function timeCount() {
+        timeLeft -= 1;
+        countdown.innerHTML = "Your download link will generate in <span>" + timeLeft + "</span> seconds.";
+  
+        if(timeLeft <= 0){
+          clearInterval(downloadTimer);
+          pleaseWaitText.style.display = "block";
+          let download_href = "#"; //enter the downlodable file link here
+          window.location.href = download_href;
+          
+  
+          setTimeout(() => {
+            pleaseWaitText.style.display = "none";
+          manualDownloadText.style.display = "block"
+          }, 4000);
+        }
+      }, 1000);
+    });
+  }, [])
+
+
+  /* useEffect(() => {
+    var sec = 15;
+    var myTimer = document.getElementById('myTimer');
+    var myBtn = document.getElementById('myBtn');
+    window.onload = countDown;
+
+    
+    function countDown() {
+        if (sec < 10) {
+            myTimer.innerHTML = "0" + sec;
+        } else {
+            myTimer.innerHTML = sec;
+        }
+        if (sec <= 0) {
+            $("#myBtn").removeAttr("disabled");
+            $("#myBtn").removeClass().addClass("btnEnable");
+            $("#myTimer").fadeTo(2500, 0);
+            myBtn.innerHTML = "Submit";
+            return;
+        }
+        sec -= 1;
+        window.setTimeout(countDown, 1000);
+    }
+  }, []) */
+  
 
   const [isVerified,setIsVerified] = useState(false);
 
@@ -84,6 +148,7 @@ export default function SinglePost({data}) {
        
       ]}
     />
+    
       <Head>
     <meta name="google-site-verification" content="qLTRg4l6MikI9dOSvLrarEtEhi5qI2IVrmsLmGr_zuk" />
     <meta name="keywords" content={data.keywords} />
@@ -124,11 +189,8 @@ export default function SinglePost({data}) {
 
           <h1 className="singlePostTitle">
             {data.title}
-              <div className="singlePostEdit">
-                <i className="singlePostIcon far fa-edit"></i>
-                <i className="singlePostIcon far fa-trash-alt"></i>
-              </div>
-            </h1>
+              
+          </h1>
           <div >
           <img
 
@@ -153,20 +215,48 @@ export default function SinglePost({data}) {
           
           </div>
         </div>
-       
-      
-        <ReCAPTCHA
+       {/* <center>
+      <div className={data.recapcha}>
+        <Download
 
-                      className="recapcha"
+                      className="recapcha"           
 
-                      sitekey="6LfHN3ceAAAAAG5ad-jUhtGOHviJbjHcsRJzEZm5"
+                      
 
                       onChange={onChange}
 
                     />
-       <div dangerouslySetInnerHTML={{ __html: data.download }}></div>
-      
+      </div> 
+      </center>             
+      <div className="col-md-12">
+                          <div className="form-group">
+                            <button
+                              disabled={!isVerified}
+                              type="submit"
+                              
+                              
+                              className="btn btn-primary"
+                            ><Link href={data.downloadlink}>Submit</Link>
+                            </button>
+                          </div>
+                        </div> */}
+                     {/*    <div id="wrapper">
+    <div id="myTimer"></div>
+    <Link href={data.downloadlink}><button type="button" id="myBtn" class="btnDisable" >
+   
+    </button>
+    </Link>
+</div> */}
+      <div className={data.visibility}>
+      <div className="download-container">
+    <a href="#" className="download-btn">Click here to download code</a>
+    <div className="countdown"></div>
+    <div className="pleaseWait-text">Please Wait...</div>
+    <div className="manualDownload-text"><a href={data.downloadlink} className="manualDownload-link"> <i className="fas fa-cloud-download-alt "></i> Download Code</a></div>
+  </div>
+  </div>
     <Footer />
+    <Script src="https://kit.fontawesome.com/e48d166edc.js" crossorigin="anonymous" />
     </>
   );
 }

@@ -127,6 +127,9 @@ justify-content: space-between;
   list-style: none;
   margin-left: -30px;
 }
+.footer-div3 ul li:hover{
+  color: yellow;
+}
 .footer-contact {
   display: flex;
 }
@@ -957,6 +960,7 @@ a {
 .recapcha {
   margin-left: auto;
   margin-right: auto;
+  justify-content: center;
 }
 
 
@@ -1325,25 +1329,27 @@ body{
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 100px;
 }
 .download-btn{
   position: relative;
-  background: #4285F4;
+  background: #3c128b;
   color: #fff;
-  width: 260px;
-  padding: 18px 0;
+  width: fit-content;
+  padding: 20px 20px 20px 20px;
   text-align: center;
   font-size: 1.3em;
   font-weight: 400;
   text-decoration: none;
-  border-radius: 50px;
+  border-radius: 10px;
   box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
   transition:  background 0.3s ease;
-
+  margin-bottom: 50px;
 }
 /* Coding with nick */
 .download-btn:hover{
-  background: #1b57bd;
+  background: #3c128b;
+  color: white;
 }
 .download-btn i{
   margin-left: 5px;
@@ -1354,7 +1360,7 @@ body{
   margin-bottom: 20px;
 }
 .countdown span{
-  color: #0693F6;
+  color: #3c128b;
   font-size: 1.5em;
   font-weight: 800;
 }
@@ -1370,9 +1376,21 @@ body{
   display: none;
 }
 .manualDownload-link{
-  color: #0693F6;
+  color: white;
+  background: #3c128b;
   font-weight: 600;
   text-decoration: none;
+  width: fit-content;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  margin-bottom: 500px;
+}
+.manualDownload-link:hover{
+  color: white;
+  
 }
 
 /* End Timer Code css */
@@ -1428,4 +1446,68 @@ body{
   border: 2px solid white;
   border-radius: 50%;
   margin-right: 10px;
+}
+.download{
+  width: fit-content;
+  height: fit-content;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  padding: 1%;
+  background: #3c128b;
+  text-align: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+.download:hover{
+ 
+  
+  
+}
+
+.show {
+  visibility: visible;
+}
+.hide {
+  visibility: hidden;
+}
+
+#wrapper {
+  text-align:center;
+  border:1px solid #7F7F7F;
+  width:150px;
+  margin:25px auto;
+  padding:25px;
+  background-color:#E3E4E4;
+}
+
+#myTimer {
+  font:64px Tahoma bold;
+  padding:20px;
+  display:block;
+}
+
+button {
+  width:125px;
+  padding:10px;
+}
+
+.btnEnable {
+  background-color:#E6F9D2;
+  border:1px solid #97DE4C;
+  color:#232323;
+  cursor:pointer;
+  visibility: visible;
+}
+
+.btnDisable {
+  visibility: hidden;
+  background-color:#FCBABA;
+  border:1px solid #DD3939;
+  color:#232323;
+  cursor:wait;
 }

@@ -7,6 +7,8 @@ import Script from 'next/script';
 
 const Download = () => {
 
+  
+
     useEffect(() => {
         const downloadBtn = document.querySelector(".download-btn");
         const countdown = document.querySelector(".countdown");
@@ -26,7 +28,7 @@ const Download = () => {
             if(timeLeft <= 0){
               clearInterval(downloadTimer);
               pleaseWaitText.style.display = "block";
-              let download_href = "https://github.com/sarnendu1/weather-app/archive/refs/heads/main.zip"; //enter the downlodable file link here
+              let download_href = ""; //enter the downlodable file link here
               window.location.href = download_href;
               manualDownloadLink.href = download_href;
       
@@ -44,19 +46,13 @@ const Download = () => {
     <>
 <Head>
   
- 
-  
-
-  
-  
-
 </Head>
 
   <div className="download-container">
-    <Link href="#" className="download-btn"> <i className="fas fa-cloud-download-alt "></i> Download Now</Link>
+    <Link href="#" className="download-btn">Download Now</Link>
     <div className="countdown"></div>
     <div className="pleaseWait-text">Please Wait...</div>
-    <div className="manualDownload-text">Direct Link <Link href="" className="manualDownload-link">click here.</Link></div>
+    
   </div>
   <Script src="https://kit.fontawesome.com/e48d166edc.js" crossorigin="anonymous" />
     </>
