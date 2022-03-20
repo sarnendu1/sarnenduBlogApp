@@ -56,7 +56,7 @@ export default function SinglePost({data}) {
     const pleaseWaitText = document.querySelector(".pleaseWait-text");
     const manualDownloadText = document.querySelector(".manualDownload-text");
     
-    var timeLeft = 30;
+    var timeLeft = 60;
   
     downloadBtn.addEventListener("click", () => {
       downloadBtn.style.display = "none";
