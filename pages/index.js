@@ -93,6 +93,7 @@ function menuBtnChange() {
     <meta name="keywords" content="tech,seo" />
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet' />
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <script type='text/javascript' src='//pl17128005.effectivecpmcontent.com/5a/91/60/5a91604530e5299f7257d599c3b4ed26.js'></script>
     </Head>
     <Navbar collapseOnSelect expand="lg" fixed="top" >
   <Container>
