@@ -95,6 +95,8 @@ function menuBtnChange() {
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
     
     </Head>
+    <Script async="async" data-cfasync="false" src="//pl17128038.effectivecpmcontent.com/a00d94f18094a0b051bc5d781da76fa3/invoke.js" />
+<div id="container-a00d94f18094a0b051bc5d781da76fa3"></div>
     <Navbar collapseOnSelect expand="lg" fixed="top" >
   <Container>
   <img src="/favicon.png" alt="" className='favicon' />
