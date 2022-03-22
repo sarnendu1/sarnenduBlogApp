@@ -270,12 +270,22 @@ export default function SinglePost({data}) {
 
   <div className='ads-section'>
     <div>
-      
+    <script dangerouslySetInnerHTML={{ __html: `
+	atOptions = {
+		'key' : '19033819215f8b80a2840bd4e126331e',
+		'format' : 'iframe',
+		'height' : 600,
+		'width' : 160,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.effectivedisplayformats.com/19033819215f8b80a2840bd4e126331e/invoke.js"></scr' + 'ipt>');
+` }} />
     </div>
   </div>
   </div>
     <Footer />
     <script dangerouslySetInnerHTML={{ __html: `(function(s,u,z,p){s.src=u,s.setAttribute('data-zone',z),p.appendChild(s);})(document.createElement('script'),'https://iclickcdn.com/tag.min.js',4964243,document.body||document.documentElement)` }} />
+    
     <Script type='text/javascript' src='//pl17130463.effectivecpmcontent.com/1f/33/de/1f33de69dc7f152dc60061b2fedffc3a.js' />
     <Script src="https://kit.fontawesome.com/e48d166edc.js" crossorigin="anonymous" />
     </>
