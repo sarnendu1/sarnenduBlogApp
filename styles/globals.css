@@ -1405,9 +1405,19 @@ body{
   
 }
 
+.ads-section {
+  width: 0px;
+
+}
+.flex {
+  display: flex;
+}
+
 /* End Timer Code css */
 
 @media (max-width:767px){
+
+
   .singlePostWrapper {
     padding: 0px;
     padding-right: 0;
@@ -1420,6 +1430,7 @@ body{
     line-height: 40px;
     justify-content: center;
   }
+
   .content ul {
     
     margin-top: 40px;
@@ -1433,6 +1444,7 @@ body{
     
     
     }
+
     
 .singlePostTitle {
   width: fit-content;
@@ -1451,6 +1463,12 @@ body{
   font-family: "Lora", sans-serif;
  
 }
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
 
 }
 

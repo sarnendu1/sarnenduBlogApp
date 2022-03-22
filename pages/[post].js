@@ -82,6 +82,9 @@ export default function SinglePost({data}) {
     });
   }, [])
 
+ 
+  
+
 
   /* useEffect(() => {
     var sec = 15;
@@ -133,6 +136,8 @@ export default function SinglePost({data}) {
       })
       setPost(updatePost);
   }
+
+  
  
   
   return (
@@ -153,7 +158,11 @@ export default function SinglePost({data}) {
     <meta name="google-site-verification" content="qLTRg4l6MikI9dOSvLrarEtEhi5qI2IVrmsLmGr_zuk" />
     <meta name="keywords" content={data.keywords} />
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet' />
+    
+	
+    <meta name="propeller" content="c90b9aaf2437c245c17d36d5b95a9b9d" />
     </Head>
+    <Script async="async" data-cfasync="false" src="//pl17128038.effectivecpmcontent.com/a00d94f18094a0b051bc5d781da76fa3/invoke.js" />
        <Navbar collapseOnSelect expand="lg" fixed="top" >
   <Container>
     <img src="/favicon.png" alt="" className='favicon' />
@@ -181,7 +190,8 @@ export default function SinglePost({data}) {
   </Navbar.Collapse>
   </Container>
 </Navbar>
-     
+
+     <div className='flex'>
           
           
           <div className="singlePost">
@@ -211,6 +221,7 @@ export default function SinglePost({data}) {
               </span>
               {/* <span>1 day ago</span> */}
             </div>
+            <div id="container-a00d94f18094a0b051bc5d781da76fa3"></div>
            <div className='content' dangerouslySetInnerHTML={{ __html: data.content }}></div>
           
           </div>
@@ -255,7 +266,15 @@ export default function SinglePost({data}) {
     <div className="manualDownload-text"><a href={data.downloadlink} className="manualDownload-link"> <i className="fas fa-cloud-download-alt "></i> Download Code</a></div>
   </div>
   </div>
+
+  <div className='ads-section'>
+    <div>
+      
+    </div>
+  </div>
+  </div>
     <Footer />
+    <Script type='text/javascript' src='//pl17130463.effectivecpmcontent.com/1f/33/de/1f33de69dc7f152dc60061b2fedffc3a.js' />
     <Script src="https://kit.fontawesome.com/e48d166edc.js" crossorigin="anonymous" />
     </>
   );
