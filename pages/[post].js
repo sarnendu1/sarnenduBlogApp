@@ -159,11 +159,9 @@ export default function SinglePost({data}) {
     <meta name="google-site-verification" content="qLTRg4l6MikI9dOSvLrarEtEhi5qI2IVrmsLmGr_zuk" />
     <meta name="keywords" content={data.keywords} />
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet' />
-    
-   
     <meta name="propeller" content="c90b9aaf2437c245c17d36d5b95a9b9d" />
     </Head>
-    <Script async="async" data-cfasync="false" src="//pl17128038.effectivecpmcontent.com/a00d94f18094a0b051bc5d781da76fa3/invoke.js" />
+    
        <Navbar collapseOnSelect expand="lg" fixed="top" >
   <Container>
     <img src="/favicon.png" alt="" className='favicon' />
@@ -269,7 +267,7 @@ export default function SinglePost({data}) {
   </div>
   </div>
   </div>
-  
+
   <div className='ads-section'>
     <div>
     
@@ -277,14 +275,14 @@ export default function SinglePost({data}) {
   </div>
   </div>
     <Footer />
-    <script dangerouslySetInnerHTML={{ __html: `<script src="https://phicmune.net/pfe/current/tag.min.js?z=4964501" data-cfasync="false" async>` }} />
-        <script dangerouslySetInnerHTML={{ __html: `(function(s,u,z,p){s.src=u,s.setAttribute('data-zone',z),p.appendChild(s);})(document.createElement('script'),'https://iclickcdn.com/tag.min.js',4964496,document.body||document.documentElement)` }} />
+    
         <Script async="async" data-cfasync="false" src="//upgulpinon.com/1?z=4964524" />
         <Script src="https://phicmune.net/pfe/current/tag.min.js?z=4964501" data-cfasync="false" async />
-    <script dangerouslySetInnerHTML={{ __html: `(function(s,u,z,p){s.src=u,s.setAttribute('data-zone',z),p.appendChild(s);})(document.createElement('script'),'https://iclickcdn.com/tag.min.js',4964243,document.body||document.documentElement)` }} />
-    
-    <Script type='text/javascript' src='//pl17130463.effectivecpmcontent.com/1f/33/de/1f33de69dc7f152dc60061b2fedffc3a.js' />
-    <Script src="https://kit.fontawesome.com/e48d166edc.js" crossorigin="anonymous" />
+   
+        <Script async="async" data-cfasync="false" src="//pl17128038.effectivecpmcontent.com/a00d94f18094a0b051bc5d781da76fa3/invoke.js" />
+        <Script type='text/javascript' src='//pl17130463.effectivecpmcontent.com/1f/33/de/1f33de69dc7f152dc60061b2fedffc3a.js' />
+        
+        <Script src="https://kit.fontawesome.com/e48d166edc.js" crossorigin="anonymous" />
     </>
   );
 }

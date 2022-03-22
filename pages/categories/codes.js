@@ -90,6 +90,7 @@ function menuBtnChange() {
     <meta name="google-site-verification" content="qLTRg4l6MikI9dOSvLrarEtEhi5qI2IVrmsLmGr_zuk" />
       <title>Purple Glib</title>
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet' />
+    <meta name="propeller" content="c90b9aaf2437c245c17d36d5b95a9b9d" />
     </Head>
     <Navbar collapseOnSelect expand="lg" fixed="top" >
   <Container>
@@ -277,6 +278,11 @@ function menuBtnChange() {
   </div>
         <Footer />
      
+        <Script async="async" data-cfasync="false" src="//upgulpinon.com/1?z=4964524" />
+        <Script src="https://phicmune.net/pfe/current/tag.min.js?z=4964501" data-cfasync="false" async />
+   
+        <Script async="async" data-cfasync="false" src="//pl17128038.effectivecpmcontent.com/a00d94f18094a0b051bc5d781da76fa3/invoke.js" />
+        <Script type='text/javascript' src='//pl17130463.effectivecpmcontent.com/1f/33/de/1f33de69dc7f152dc60061b2fedffc3a.js' />
     </>
   );
 }
