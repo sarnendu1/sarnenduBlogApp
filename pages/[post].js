@@ -275,7 +275,7 @@ export default function SinglePost({data}) {
   </div>
   </div>
     <Footer />
-    <Script dangerouslySetInnerHTML={{ __html: `(function(s,u,z,p){s.src=u,s.setAttribute('data-zone',z),p.appendChild(s);})(document.createElement('script'),'https://iclickcdn.com/tag.min.js',4964243,document.body||document.documentElement)` }} />
+    <script dangerouslySetInnerHTML={{ __html: `(function(s,u,z,p){s.src=u,s.setAttribute('data-zone',z),p.appendChild(s);})(document.createElement('script'),'https://iclickcdn.com/tag.min.js',4964243,document.body||document.documentElement)` }} />
     <Script type='text/javascript' src='//pl17130463.effectivecpmcontent.com/1f/33/de/1f33de69dc7f152dc60061b2fedffc3a.js' />
     <Script src="https://kit.fontawesome.com/e48d166edc.js" crossorigin="anonymous" />
     </>
