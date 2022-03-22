@@ -93,7 +93,7 @@ function menuBtnChange() {
     <meta name="keywords" content="tech,seo" />
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet' />
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
-
+    <meta name="propeller" content="c90b9aaf2437c245c17d36d5b95a9b9d" />
     </Head>
     
 
