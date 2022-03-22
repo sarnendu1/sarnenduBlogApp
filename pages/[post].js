@@ -15,6 +15,7 @@ import Script from 'next/script';
 
 
 
+
 export const getStaticPaths = async()=>{
   const res = await fetch("https://sarnendublogappapi.herokuapp.com/posts")
   const data = await res.json();
@@ -159,7 +160,7 @@ export default function SinglePost({data}) {
     <meta name="keywords" content={data.keywords} />
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet' />
     
-	
+      <Script src='../components/categories/ads'></Script>
     <meta name="propeller" content="c90b9aaf2437c245c17d36d5b95a9b9d" />
     </Head>
     <Script async="async" data-cfasync="false" src="//pl17128038.effectivecpmcontent.com/a00d94f18094a0b051bc5d781da76fa3/invoke.js" />
