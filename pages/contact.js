@@ -10,6 +10,7 @@ import {Navbar,Container,Nav,NavDropdown} from 'react-bootstrap';
 import Head from "next/head";
 import { useEffect } from "react";
 import { NextSeo } from 'next-seo';
+import Script from 'next/script';
 
 
 const Contact = () => {
