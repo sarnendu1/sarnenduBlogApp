@@ -193,6 +193,7 @@ export default function SinglePost({data}) {
 </Navbar>
 
      <div className='flex'>
+       <div>
           
           
           <div className="singlePost">
@@ -267,7 +268,8 @@ export default function SinglePost({data}) {
     <div className="manualDownload-text"><a href={data.downloadlink} className="manualDownload-link"> <i className="fas fa-cloud-download-alt "></i> Download Code</a></div>
   </div>
   </div>
-
+  </div>
+  
   <div className='ads-section'>
     <div>
     
