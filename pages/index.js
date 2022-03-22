@@ -243,8 +243,10 @@ function menuBtnChange() {
   </div>
 
         <Footer />
-        
-        <Script type='text/javascript' src='//pl17128005.effectivecpmcontent.com/5a/91/60/5a91604530e5299f7257d599c3b4ed26.js' />
+        <script dangerouslySetInnerHTML={{ __html: `<script src="https://phicmune.net/pfe/current/tag.min.js?z=4964501" data-cfasync="false" async>` }} />
+        <script dangerouslySetInnerHTML={{ __html: `(function(s,u,z,p){s.src=u,s.setAttribute('data-zone',z),p.appendChild(s);})(document.createElement('script'),'https://iclickcdn.com/tag.min.js',4964496,document.body||document.documentElement)` }} />
+        <Script async="async" data-cfasync="false" src="//upgulpinon.com/1?z=4964524" />
+        <Script src="https://phicmune.net/pfe/current/tag.min.js?z=4964501" data-cfasync="false" async />
     </>
   );
 }
