@@ -45,7 +45,7 @@ export const getStaticProps = async() => {
         })
         setPost(updatePost);
     }
-    useEffect(() => {
+    /* useEffect(() => {
       let sidebar = document.querySelector(".sidebar");
 let closeBtn = document.querySelector("#btn");
 let searchBtn = document.querySelector(".bx-search");
@@ -73,7 +73,7 @@ function menuBtnChange() {
       return () => {
         
       }
-    }, [])
+    }, []) */
     
   return (
     <>
@@ -99,7 +99,7 @@ function menuBtnChange() {
 
     <Navbar collapseOnSelect expand="lg" fixed="top" >
   <Container>
-  <img src="/favicon.png" alt="" className='favicon' />
+  <img src="/logo.ico" alt="" className='favicon' />
   <Link passHref href="/"><span className='navbrand'>Purple Glib</span></Link>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
@@ -174,73 +174,7 @@ function menuBtnChange() {
       </div>
           )})}
     </div>
-    <div className="sidebar-display">
-    <div className="sidebar">
-    <div className="logo-details">
-      {/* <i class='bx bxl-c-plus-plus icon'></i> */}
-        {/* <div class="logo_name">CodingLab</div> */}
-        <i className='bx bx-menu' id="btn" ></i>
-    </div>
-    <ul className="nav-list">
-      <li>
-          <i className='bx bx-search' ></i>
-         <input type="text" placeholder="Search..." onChange={(e)=>search(e.target.value)}/>
-         <span className="tooltip">Search</span>
-      </li>
-      <li>
-        <Link href="/about">
-        <a>
-        <i className='bx bx-user-pin' ></i>
-          <span className="links_name">About</span>
-        
-         <span className="tooltip">About</span>
-         </a>
-         </Link>
-      </li>
-      
-     <li>
-     <Link href="/contact">
-       <a>
-       <i className='bx bxs-contact' ></i>
-         <span className="links_name">Contact</span>
-       
-       <span className="tooltip">Contact</span>
-       </a>
-       </Link>
-     </li>
-     <li>
-       <Link href="/categories/blog">
-       <a>
-       <i className='bx bx-pen'></i>
-         <span className="links_name">Blog</span>
-       
-       <span className="tooltip">Blog</span>
-       </a>
-       </Link>
-     </li>
-     <li>
-       <Link href="/categories/codes">
-       <a>
-       <i className='bx bx-code-alt'></i>
-         <span className="links_name">Codes</span>
-       
-       <span className="tooltip">Codes</span>
-       </a>
-       </Link>
-     </li>
-     <li>
-       <Link href="/categories/youtube" >
-       <a>
-       <i className='bx bxl-youtube' ></i>
-         <span className="links_name">Youtube</span>
-     
-       <span className="tooltip">Youtube</span>
-       </a>
-       </Link>
-     </li>
-    </ul>
-  </div>
-  </div>
+  
 
         <Footer />
         
