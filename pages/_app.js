@@ -16,15 +16,13 @@ function MyApp({ Component, pageProps }) {
   return (
   <>
   <Script strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=G-KCR7Z3Z830`} />
-  <Script strategy="lazyOnload">
+  <Script strategy="lazyOnload" id='my-script'>
   {
-    `
-    window.dataLayer = window.dataLayer || [];
+    `window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-KCR7Z3Z830');
-  `
+  gtag('config', 'G-KCR7Z3Z830');`
   }
   
   </Script>  
