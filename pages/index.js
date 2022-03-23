@@ -94,7 +94,7 @@ function menuBtnChange() {
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet' />
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
     <meta name="propeller" content="c90b9aaf2437c245c17d36d5b95a9b9d" />
-    <Script src="https://richinfo.co/richpartners/push/js/rp-cl-ob.js?pubid=829765&siteid=309909&niche=33" />
+    
     </Head>
     
 
@@ -178,7 +178,7 @@ function menuBtnChange() {
   
 
         <Footer />
-        
+        <Script src="https://richinfo.co/richpartners/push/js/rp-cl-ob.js?pubid=829765&siteid=309909&niche=33" />
         <Script async="async" data-cfasync="false" src="//upgulpinon.com/1?z=4964524" />
         <Script src="https://phicmune.net/pfe/current/tag.min.js?z=4964501" data-cfasync="false" async />
     </>
