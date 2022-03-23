@@ -191,7 +191,7 @@ export default function SinglePost({data}) {
 </Navbar>
 
      <div className='flex'>
-       <div>
+      
           
           
           <div className="singlePost">
@@ -266,11 +266,20 @@ export default function SinglePost({data}) {
     <div className="manualDownload-text"><a href={data.downloadlink} className="manualDownload-link"> <i className="fas fa-cloud-download-alt "></i> Download Code</a></div>
   </div>
   </div>
-  </div>
+  
 
   <div className='ads-section'>
     <div>
-    
+    <Script strategy="lazyOnload" id='my-script'>
+	{`atOptions = {
+		'key' : '97653803cde2ba91ae2a7960f36416d7',
+		'format' : 'iframe',
+		'height' : 300,
+		'width' : 160,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.effectivedisplayformats.com/97653803cde2ba91ae2a7960f36416d7/invoke.js"></scr' + 'ipt>');`}
+</Script>
     </div>
   </div>
   </div>

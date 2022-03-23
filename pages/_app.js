@@ -26,6 +26,8 @@ function MyApp({ Component, pageProps }) {
   }
   
   </Script>  
+
+ 
   <Component {...pageProps} />
   </>
   )
