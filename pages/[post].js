@@ -222,6 +222,20 @@ if(sidebar.classList.contains("open")){
         <NextSeo
       title={data.metatitle}
       description={data.desc}
+      openGraph={{
+        type: 'website',
+        url: `${data.slug}`,
+        title: `${data.title}`,
+        description: `${data.desc}`,
+        images: [
+          {
+            url: `${data.image.url}`,
+            width: 800,
+            height: 600,
+            alt: `${data.title}`,
+          }
+        ],
+      }}
       additionalLinkTags={[
         {
           rel: 'icon',
@@ -304,9 +318,9 @@ if(sidebar.classList.contains("open")){
         {" Share " }<FaFacebookSquare className='facebook' size={40} />
       </FacebookButton>
       
-<FacebookShareButton url={url} >
-<FacebookIcon size={32} round={true} />
-</FacebookShareButton>
+<WhatsappShareButton url={url} >
+<WhatsappIcon size={32} round={true} />
+</WhatsappShareButton>
             <div id="container-a00d94f18094a0b051bc5d781da76fa3"></div>
            <div className='content' dangerouslySetInnerHTML={{ __html: data.content }}></div>
           
