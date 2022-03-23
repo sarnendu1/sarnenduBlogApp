@@ -14,7 +14,7 @@ const term = () => {
       additionalLinkTags={[
         {
           rel: 'icon',
-          href: '/favicon.png',
+          href: '/favicon.ico',
         }
        
       ]}

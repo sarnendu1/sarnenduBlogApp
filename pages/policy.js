@@ -14,7 +14,7 @@ const policy = () => {
       additionalLinkTags={[
         {
           rel: 'icon',
-          href: '/favicon.png',
+          href: '/favicon.ico',
         }
        
       ]}

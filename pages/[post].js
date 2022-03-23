@@ -149,7 +149,7 @@ export default function SinglePost({data}) {
       additionalLinkTags={[
         {
           rel: 'icon',
-          href: '/favicon.png',
+          href: '/favicon.ico',
         }
        
       ]}

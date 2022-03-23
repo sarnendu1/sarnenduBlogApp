@@ -82,7 +82,7 @@ function menuBtnChange() {
       additionalLinkTags={[
         {
           rel: 'icon',
-          href: '/favicon.png',
+          href: '/favicon.ico',
         }
        
       ]}

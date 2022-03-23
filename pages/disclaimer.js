@@ -14,7 +14,7 @@ const disclaimer = () => {
       additionalLinkTags={[
         {
           rel: 'icon',
-          href: '/favicon.png',
+          href: '/favicon.ico',
         }
        
       ]}

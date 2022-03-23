@@ -122,7 +122,7 @@ if(sidebar.classList.contains("open")){
       additionalLinkTags={[
         {
           rel: 'icon',
-          href: '/favicon.png',
+          href: '/favicon.ico',
         }
        
       ]}
