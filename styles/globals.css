@@ -1547,7 +1547,9 @@ button {
   background: transparent;
   border: none;
 }
-
+.adsterra-ads {
+  margin-top: 20px;
+}
 
 
 .facebook {

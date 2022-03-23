@@ -307,7 +307,7 @@ if(sidebar.classList.contains("open")){
               <span>
                 Author:
                 <b className="singlePostAuthor">
-                  <Link passHref href="/about">
+                  <Link passHref href="https://sarnendu1.github.io/portfolio/">
                    <span className="color5">Sarnendu Das</span>
                   </Link>
                 </b>
@@ -321,7 +321,7 @@ if(sidebar.classList.contains("open")){
       </FacebookButton> */}
       
             <FacebookShareButton url={url} >
-          {"Share at"}<FacebookIcon size={32} round={true} />
+          <FacebookIcon size={32} round={true} />
             </FacebookShareButton>
 
             <TwitterShareButton url={url} >
@@ -355,7 +355,7 @@ if(sidebar.classList.contains("open")){
 
 
 
-            <div id="container-a00d94f18094a0b051bc5d781da76fa3"></div>
+            <div id="container-a00d94f18094a0b051bc5d781da76fa3" className='adsterra-ads'></div>
            <div className='content' dangerouslySetInnerHTML={{ __html: data.content }}></div>
           
           </div>
