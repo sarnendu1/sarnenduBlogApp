@@ -1541,3 +1541,13 @@ button {
   color:#232323;
   cursor:wait;
 }
+
+.social-share {
+  width: fit-content;
+  background: transparent;
+  border: none;
+}
+
+.facebook {
+color: #4267B2;
+}

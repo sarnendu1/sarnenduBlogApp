@@ -12,7 +12,52 @@ import ReCAPTCHA from "react-google-recaptcha";
 import Download from '../components/download/download';
 import { useEffect } from 'react';
 import Script from 'next/script';
-
+import { FacebookButton, FacebookCount, LinkedInButton } from "react-social";
+import {FaFacebook, FaFacebookSquare, FaLinkedin, FaYoutube, FaYoutubeSquare} from "react-icons/fa";
+import {
+  EmailIcon,
+  FacebookIcon,
+  FacebookMessengerIcon,
+  HatenaIcon,
+  InstapaperIcon,
+  LineIcon,
+  LinkedinIcon,
+  LivejournalIcon,
+  MailruIcon,
+  OKIcon,
+  PinterestIcon,
+  PocketIcon,
+  RedditIcon,
+  TelegramIcon,
+  TumblrIcon,
+  TwitterIcon,
+  ViberIcon,
+  VKIcon,
+  WeiboIcon,
+  WhatsappIcon,
+  WorkplaceIcon
+} from "react-share";
+import {
+  EmailShareButton,
+  FacebookShareButton,
+  HatenaShareButton,
+  InstapaperShareButton,
+  LineShareButton,
+  LinkedinShareButton,
+  LivejournalShareButton,
+  MailruShareButton,
+  OKShareButton,
+  PinterestShareButton,
+  PocketShareButton,
+  RedditShareButton,
+  TelegramShareButton,
+  TumblrShareButton,
+  TwitterShareButton,
+  ViberShareButton,
+  VKShareButton,
+  WhatsappShareButton,
+  WorkplaceShareButton
+} from "react-share";
 
 
 
@@ -168,7 +213,9 @@ if(sidebar.classList.contains("open")){
   }
 
   
- 
+  let url = `https://www.purpleglib.in/${data.slug}`;
+  
+      
   
   return (
       <>
@@ -251,6 +298,15 @@ if(sidebar.classList.contains("open")){
               </span>
               {/* <span>1 day ago</span> */}
             </div>
+
+            <FacebookButton url={url} appId={341856284569268} className="social-share">
+        <FacebookCount url={url} />
+        {" Share " }<FaFacebookSquare className='facebook' size={40} />
+      </FacebookButton>
+      
+<FacebookShareButton url={url} >
+<FacebookIcon size={32} round={true} />
+</FacebookShareButton>
             <div id="container-a00d94f18094a0b051bc5d781da76fa3"></div>
            <div className='content' dangerouslySetInnerHTML={{ __html: data.content }}></div>
           
