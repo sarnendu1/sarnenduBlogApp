@@ -257,7 +257,7 @@ if(sidebar.classList.contains("open")){
     
        <Navbar collapseOnSelect expand="lg" fixed="top" >
   <Container>
-    <img src="/logo.ico" alt="" className='favicon' />
+    <img src="/logo.ico" alt="logo" className='favicon' />
   <Link passHref href="/"><span className='navbrand'>Purple Glib</span></Link>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
