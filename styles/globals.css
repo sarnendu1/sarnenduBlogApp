@@ -101,6 +101,7 @@ background: #602AC3;
 padding: 5%;
 color: white;
 justify-content: space-between;
+margin-top: 50px;
 
 }
 .footer-container h2 {
@@ -1500,10 +1501,10 @@ body{
 }
 
 .show {
-  visibility: visible;
+  display: block;
 }
 .hide {
-  visibility: hidden;
+  display: none;
 }
 
 #wrapper {
@@ -1543,9 +1544,18 @@ button {
 }
 
 .social-share {
-  width: fit-content;
-  background: transparent;
-  border: none;
+  justify-content: center;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: -50px;
+  
+}
+.social-share-text {
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 22px;
+  color: #000;
+  font-family: Righteous;
 }
 .adsterra-ads {
   margin-top: 20px;

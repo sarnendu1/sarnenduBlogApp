@@ -320,6 +320,8 @@ if(sidebar.classList.contains("open")){
         {" Share " }<FaFacebookSquare className='facebook' size={40} />
       </FacebookButton> */}
       
+      <div className='social-share-text'>Sharing is caring ❤️</div>
+
             <FacebookShareButton url={url} >
           <FacebookIcon size={32} round={true} />
             </FacebookShareButton>
@@ -400,6 +402,45 @@ if(sidebar.classList.contains("open")){
     <div className="manualDownload-text"><a href={data.downloadlink} className="manualDownload-link"> <i className="fas fa-cloud-download-alt "></i> Download Code</a></div>
   </div>
   </div>
+
+
+
+  <div className='social-share'>
+  <div className='social-share-text'>Sharing is caring ❤️</div>
+
+<FacebookShareButton url={url} >
+<FacebookIcon size={32} round={true} />
+</FacebookShareButton>
+
+<TwitterShareButton url={url} >
+<TwitterIcon size={32} round={true} />
+</TwitterShareButton>
+
+<WhatsappShareButton url={url} >
+<WhatsappIcon size={32} round={true} />
+</WhatsappShareButton>
+
+<FacebookMessengerShareButton url={url} >
+<FacebookMessengerIcon size={32} round={true} />
+</FacebookMessengerShareButton>
+
+<LinkedinShareButton url={url} >
+<LinkedinIcon size={32} round={true} />
+</LinkedinShareButton>
+
+<TelegramShareButton url={url} >
+<TelegramIcon size={32} round={true} />
+</TelegramShareButton>
+
+<PinterestShareButton url={url} >
+<PinterestIcon size={32} round={true} />
+</PinterestShareButton>
+
+<EmailShareButton url={url} >
+<EmailIcon size={32} round={true} />
+</EmailShareButton>
+
+</div>
   </div>
 
   <div className='ads-section'>
@@ -478,11 +519,11 @@ if(sidebar.classList.contains("open")){
   </div>
     <Footer />
     
-        <Script async="async" data-cfasync="false" src="//upgulpinon.com/1?z=4964524" />
+        {/* <Script async="async" data-cfasync="false" src="//upgulpinon.com/1?z=4964524" />
         <Script src="https://phicmune.net/pfe/current/tag.min.js?z=4964501" data-cfasync="false" async />
    
         <Script async="async" data-cfasync="false" src="//pl17128038.effectivecpmcontent.com/a00d94f18094a0b051bc5d781da76fa3/invoke.js" />
-        <Script type='text/javascript' src='//pl17130463.effectivecpmcontent.com/1f/33/de/1f33de69dc7f152dc60061b2fedffc3a.js' />
+        <Script type='text/javascript' src='//pl17130463.effectivecpmcontent.com/1f/33/de/1f33de69dc7f152dc60061b2fedffc3a.js' /> */}
         
         <Script src="https://kit.fontawesome.com/e48d166edc.js" crossorigin="anonymous" />
     </>

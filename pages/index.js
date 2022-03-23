@@ -178,9 +178,9 @@ function menuBtnChange() {
   
 
         <Footer />
-        <Script src="https://richinfo.co/richpartners/push/js/rp-cl-ob.js?pubid=829765&siteid=309909&niche=33" />
-        <Script async="async" data-cfasync="false" src="//upgulpinon.com/1?z=4964524" />
-        <Script src="https://phicmune.net/pfe/current/tag.min.js?z=4964501" data-cfasync="false" async />
+        
+        {/* <Script async="async" data-cfasync="false" src="//upgulpinon.com/1?z=4964524" />
+        <Script src="https://phicmune.net/pfe/current/tag.min.js?z=4964501" data-cfasync="false" async /> */}
     </>
   );
 }
