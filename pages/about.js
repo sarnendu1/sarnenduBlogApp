@@ -119,7 +119,7 @@ I started Sarnendu with the idea of helping Students like yourself, by giving so
 
 I know many programming languages like `<i> Html,Css,Javascript,Next Js,React Js,Node Js,Express Js,MongoDB,Php And Mysql</i>``.
 
-Currently I am Working At Techpranee As A Web Developer
+Currently I am Working As A Web Developer
 
 My Youtube Channels Names Are Sarnendu Official And Career Champions, You Can Visit My Channel And Check My Videos And If You Like My Videos Then You Can Subscribe.</p>
 </div>

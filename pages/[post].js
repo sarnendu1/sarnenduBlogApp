@@ -334,7 +334,7 @@ if(sidebar.classList.contains("open")){
             <WhatsappIcon size={32} round={true} />
             </WhatsappShareButton>
 
-            <FacebookMessengerShareButton url={url} >
+            <FacebookMessengerShareButton url={url} appId={341856284569268} >
             <FacebookMessengerIcon size={32} round={true} />
             </FacebookMessengerShareButton>
 
@@ -420,7 +420,7 @@ if(sidebar.classList.contains("open")){
 <WhatsappIcon size={32} round={true} />
 </WhatsappShareButton>
 
-<FacebookMessengerShareButton url={url} >
+<FacebookMessengerShareButton url={url} appId={341856284569268} >
 <FacebookMessengerIcon size={32} round={true} />
 </FacebookMessengerShareButton>
 
