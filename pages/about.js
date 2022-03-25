@@ -103,15 +103,15 @@ His Youtube Channels Names Are Sarnendu Official And Career Champions, You Can V
             <Link href="https://www.facebook.com/sarnendu28"><a className="navlinkfacebook" ><FaFacebookSquare size={40}/></a></Link>
         </li>
         <li>
-            <Link href="/about"><a className="navlinkyoutube"><FaYoutubeSquare size={40}/></a></Link>
+            <Link href="https://www.youtube.com/c/SarnenduOfficial"><a className="navlinkyoutube"><FaYoutubeSquare size={40}/></a></Link>
         </li>
 
         <li>
-            <Link href="/about"><a className="navlinkyoutube"><FaInstagram size={40}/></a></Link>
+            <Link href="https://www.instagram.com/sarnendu28/"><a className="navlinkyoutube"><FaInstagram size={40}/></a></Link>
         </li>
         
         <li>
-            <Link href="/about"><a className="navlinklinkedin" ><FaLinkedin size={40}/></a></Link>
+            <Link href="https://www.linkedin.com/in/sarnendudas/"><a className="navlinklinkedin" ><FaLinkedin size={40}/></a></Link>
         </li>
 
       </ul>

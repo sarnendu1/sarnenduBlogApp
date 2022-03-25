@@ -31,9 +31,9 @@ import Link from "next/link";
             
         </div>
         <div className="footer-div2">
-            <h2>Follow me</h2>
+            <h2>Follow Us</h2>
          <Link href=""><FaInstagramSquare size={30}/></Link>
-         <Link href="https://www.facebook.com/sarnendu28"><FaFacebookSquare size={30}/></Link>
+         <Link href="https://www.facebook.com/purpleglib"><FaFacebookSquare size={30}/></Link>
          <Link href=""><FaTwitterSquare size={30}/></Link>
          <Link href="https://www.linkedin.com/in/sarnendudas/"><FaLinkedin size={30}/></Link>
             
@@ -45,7 +45,7 @@ import Link from "next/link";
             <p>8013024559</p>
             </div>
             <div className="footer-contact">
-            <Link href="mailto:sarnendu1@gmail.com"><FaEnvelopeSquare size={30}/></Link>
+            <Link href="mailto:purpleglib@gmail.com"><FaEnvelopeSquare size={30}/></Link>
             <p>sarnendu1@gmail.com</p>
             </div>
         </div>
