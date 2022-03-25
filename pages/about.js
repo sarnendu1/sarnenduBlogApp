@@ -70,7 +70,7 @@ const About = () => {
    
 
     <div className='about-desc-box'>
-    <p className='about-desc'>Hi Friends,Welcome to Purple Glib, It's a blog and codes website, Here you will find tech blogs and free codes of designs and projects which all written and coded by Mr.Sarnendu Das(Founder). He is a Professional Web Developer with a passion for Web Designing And Developing, and he also Makes Videos On Youtube.
+    <p className='about-desc'>Hi Friends,Welcome to Purple Glib, It is a blog and codes website, Here you will find tech blogs and free codes of designs and projects which all written and coded by Mr.Sarnendu Das(Founder). He is a Professional Web Developer with a passion for Web Designing And Developing, and he also Makes Videos On Youtube.
 
 He started Purple Glib with the idea of helping Students like yourself, by giving some Tech and Educational blogs, Free codes and Youtube Videos.
 
