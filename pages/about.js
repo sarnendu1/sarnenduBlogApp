@@ -74,7 +74,7 @@ const About = () => {
 
 He started Purple Glib with the idea of helping Students like yourself, by giving some Tech and Educational blogs, Free codes and Youtube Videos.
 
-He knows many programming languages like `<i> Html,Css,Javascript,Next Js,React Js,Node Js,Express Js,MongoDB,Php And Mysql</i>``.
+He knows many programming languages like Html,Css,Javascript,Next Js,React Js,Node Js,Express Js,MongoDB,Php And Mysql.
 
 His Youtube Channels Names Are Sarnendu Official And Career Champions, You Can Visit his Channel And Check his Videos And If You Like his Videos Then You Can Subscribe.</p>
 </div>
