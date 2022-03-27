@@ -1600,3 +1600,9 @@ color: #4267B2;
   border: 2px solid white;
 
 }
+.white {
+  color: white;
+ }
+ .white:hover {
+  color: white;
+ }

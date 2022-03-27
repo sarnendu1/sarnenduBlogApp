@@ -32,10 +32,10 @@ import Link from "next/link";
         </div>
         <div className="footer-div2">
             <h2>Follow Us</h2>
-         <Link href=""><FaInstagramSquare size={30}/></Link>
-         <Link href="https://www.facebook.com/purpleglib"><FaFacebookSquare size={30}/></Link>
+         <Link href=""><a className="white" target="_blank"><FaInstagramSquare size={30}/></a></Link>
+         <Link href="https://www.facebook.com/purpleglib"><a className="white" target="_blank"><FaFacebookSquare size={30}/></a></Link>
          <Link href=""><FaTwitterSquare size={30}/></Link>
-         <Link href="https://www.linkedin.com/in/sarnendudas/"><FaLinkedin size={30}/></Link>
+         <Link href="https://www.linkedin.com/in/sarnendudas/"><a className="white" target="_blank"><FaLinkedin size={30}/></a></Link>
             
         </div>
         <div className="footer-div2">
