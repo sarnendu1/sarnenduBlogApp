@@ -41,11 +41,11 @@ import Link from "next/link";
         <div className="footer-div2">
             <h2>Contact</h2>
             <div className="footer-contact">
-            <Link href="tel:8013024559"><FaPhoneSquareAlt size={30}/></Link>
+            <Link href="tel:8013024559" target="_blank"><FaPhoneSquareAlt size={30}/></Link>
             <p>8013024559</p>
             </div>
             <div className="footer-contact">
-            <Link href="mailto:purpleglib@gmail.com"><FaEnvelopeSquare size={30}/></Link>
+            <Link href="mailto:purpleglib@gmail.com" target="_blank"><FaEnvelopeSquare size={30}/></Link>
             <p>sarnendu1@gmail.com</p>
             </div>
         </div>
