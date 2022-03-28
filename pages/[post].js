@@ -242,6 +242,10 @@ if(sidebar.classList.contains("open")){
         {
           rel: 'icon',
           href: '/favicon.ico',
+        },
+        {
+          rel:'shortcut icon',
+          href:'/favicon.ico',
         }
        
       ]}
