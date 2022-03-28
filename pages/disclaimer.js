@@ -14,11 +14,11 @@ const disclaimer = () => {
       additionalLinkTags={[
         {
           rel: 'icon',
-          href: '/favicon.ico',
+          href: 'favicon.ico',
         },
         {
           rel:'shortcut icon',
-          href:'/favicon.ico',
+          href:'favicon.ico',
         }
        
       ]}
