@@ -1,6 +1,7 @@
 import '../styles/globals.css'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import Script from 'next/script';
+import Head from 'next/head';
 
 /* <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-KCR7Z3Z830"></script>
