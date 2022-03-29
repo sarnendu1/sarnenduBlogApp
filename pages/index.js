@@ -129,16 +129,7 @@ function menuBtnChange() {
   </Navbar.Collapse>
   </Container>
 </Navbar>
-{/* <Script strategy="lazyOnload" id='my-script'>
-	{`atOptions = {
-		'key' : '65f053a637c06f9740aa38b3849661d1',
-		'format' : 'iframe',
-		'height' : 90,
-		'width' : 728,
-		'params' : {}
-	};
-	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.effectivedisplayformats.com/65f053a637c06f9740aa38b3849661d1/invoke.js"></scr' + 'ipt>');`}
-</Script> */}
+
 
       <Header />
       <div className="home">
