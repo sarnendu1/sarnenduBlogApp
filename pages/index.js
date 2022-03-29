@@ -139,6 +139,7 @@ function menuBtnChange() {
 	};
 	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.effectivedisplayformats.com/65f053a637c06f9740aa38b3849661d1/invoke.js"></scr' + 'ipt>');`}
 </Script>
+<Script data-cfasync='false' src='//p445351.clksite.com/adServe/banners?tid=445351_872189_0' />
       <Header />
       <div className="home">
       
