@@ -15,6 +15,9 @@ import Script from 'next/script';
 function MyApp({ Component, pageProps }) {
   return (
   <>
+  <Head>
+  <meta name="msvalidate.01" content="39AD84BB96D73990686FDB08CC51BE5A" />
+  </Head>
   <Script strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=G-KCR7Z3Z830`} />
   <Script strategy="lazyOnload" id='my-script'>
   {
