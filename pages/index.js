@@ -129,7 +129,7 @@ function menuBtnChange() {
   </Navbar.Collapse>
   </Container>
 </Navbar>
-<Script strategy="lazyOnload" id='my-script1'>
+<Script strategy="lazyOnload" id='my-script'>
 	{`atOptions = {
 		'key' : '65f053a637c06f9740aa38b3849661d1',
 		'format' : 'iframe',
