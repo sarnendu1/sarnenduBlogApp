@@ -34,10 +34,7 @@ function MyApp({ Component, pageProps }) {
 
  
   <Component {...pageProps} />
-  <Script strategy="lazyOnload" id='my-script'>
-      {`var infolinks_pid = 3361651;
-var infolinks_wsid = 0;`}
-</Script>
+  
 <Script src="http://resources.infolinks.com/js/infolinks_main.js" />
 <Script src='//pl17130463.safestgatetocontent.com/1f/33/de/1f33de69dc7f152dc60061b2fedffc3a.js' />
 
