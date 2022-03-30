@@ -526,12 +526,12 @@ if(sidebar.classList.contains("open")){
   </div>
     <Footer />
     
-        <Script async="async" data-cfasync="false" src="//upgulpinon.com/1?z=4964524" />
+        {/* <Script async="async" data-cfasync="false" src="//upgulpinon.com/1?z=4964524" />
         <Script src="https://phicmune.net/pfe/current/tag.min.js?z=4964501" data-cfasync="false" async />
    
         <Script async="async" data-cfasync="false" src="//pl17128038.effectivecpmcontent.com/a00d94f18094a0b051bc5d781da76fa3/invoke.js" />
         <Script type='text/javascript' src='//pl17130463.effectivecpmcontent.com/1f/33/de/1f33de69dc7f152dc60061b2fedffc3a.js' />
-        
+         */}
         <Script src="https://kit.fontawesome.com/e48d166edc.js" crossorigin="anonymous" />
     </>
   );
