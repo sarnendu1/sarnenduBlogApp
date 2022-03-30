@@ -532,7 +532,6 @@ if(sidebar.classList.contains("open")){
         <Script async="async" data-cfasync="false" src="//pl17128038.effectivecpmcontent.com/a00d94f18094a0b051bc5d781da76fa3/invoke.js" />
         <Script type='text/javascript' src='//pl17130463.effectivecpmcontent.com/1f/33/de/1f33de69dc7f152dc60061b2fedffc3a.js' />
          */}
-         
         <Script src="https://kit.fontawesome.com/e48d166edc.js" crossorigin="anonymous" />
     </>
   );
