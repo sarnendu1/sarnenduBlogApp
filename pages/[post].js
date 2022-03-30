@@ -323,9 +323,10 @@ if(sidebar.classList.contains("open")){
         <FacebookCount url={url} />
         {" Share " }<FaFacebookSquare className='facebook' size={40} />
       </FacebookButton> */}
-      
-      <div className='social-share-text'>Sharing is caring ❤️</div>
 
+      <div className='social-share'>
+      <div className='social-share-text'>Sharing is caring ❤️</div>
+      
             <FacebookShareButton url={url} >
           <FacebookIcon size={32} round={true} />
             </FacebookShareButton>
@@ -357,7 +358,7 @@ if(sidebar.classList.contains("open")){
             <EmailShareButton url={url} >
             <EmailIcon size={32} round={true} />
             </EmailShareButton>
-
+</div>
 
 
 
@@ -409,9 +410,9 @@ if(sidebar.classList.contains("open")){
 
 
 
-  <div className='social-share'>
+  <div className='social-share2'>
   <div className='social-share-text'>Sharing is caring ❤️</div>
-
+  
 <FacebookShareButton url={url} >
 <FacebookIcon size={32} round={true} />
 </FacebookShareButton>

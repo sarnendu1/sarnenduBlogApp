@@ -1474,7 +1474,6 @@ body{
   flex-direction: column;
 }
 
-
 }
 
 .favicon {
@@ -1549,9 +1548,16 @@ button {
 
 .social-share {
   justify-content: center;
-  margin-left: 150px;
-  margin-right: 150px;
-  margin-top: -50px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  
+}
+.social-share2 {
+  justify-content: center;
+  margin-left: 50px;
+  margin-right: 0px;
+  margin-top: 0px;
   
 }
 .social-share-text {
@@ -1605,4 +1611,33 @@ color: #4267B2;
  }
  .white:hover {
   color: white;
+ }
+
+ @media (max-width:767px){
+
+
+ .social-share {
+  justify-content: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+
+  
+}
+.social-share2 {
+  justify-content: center;
+  margin-left: 50px;
+  margin-right: 0px;
+  margin-top: 0px;
+
+  
+}
+.social-share-text {
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 22px;
+  color: #000;
+  font-family: Righteous;
+}
+
  }
