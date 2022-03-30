@@ -304,6 +304,8 @@ if(sidebar.classList.contains("open")){
           src={data.image.url}
           className="feature-img"
           alt={data.title}
+          width={660}
+          
           />
           </div>
           
