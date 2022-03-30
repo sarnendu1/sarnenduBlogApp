@@ -298,7 +298,6 @@ if(sidebar.classList.contains("open")){
             {data.title}
               
           </h1>
-          
           <div >
           <img
 
