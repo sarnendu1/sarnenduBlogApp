@@ -241,11 +241,11 @@ if(sidebar.classList.contains("open")){
       additionalLinkTags={[
         {
           rel: 'icon',
-          href: 'favicon.ico',
+          href: '/favicon.ico',
         },
         {
           rel:'shortcut icon',
-          href:'favicon.ico',
+          href:'/favicon.ico',
         }
        
       ]}
