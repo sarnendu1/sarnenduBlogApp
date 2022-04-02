@@ -13,6 +13,7 @@ import Head from 'next/head';
   gtag('config', 'G-KCR7Z3Z830');
 </script>
  */
+
 function MyApp({ Component, pageProps }) {
   return (
   <>
