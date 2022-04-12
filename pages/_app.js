@@ -39,7 +39,7 @@ function MyApp({ Component, pageProps }) {
   
 
 <Script src='//pl17130463.safestgatetocontent.com/1f/33/de/1f33de69dc7f152dc60061b2fedffc3a.js' />
-<Script strategy="lazyOnload" id='my-script'>`{(function(d,z,s){s.src='//'+d+'/401/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('eehuzaih.com',5017691,document.createElement('script'))}`</Script>
+<Script strategy="lazyOnload" id='my-script'>{`(function(d,z,s){s.src='//'+d+'/401/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('eehuzaih.com',5017691,document.createElement('script'))`}</Script>
   </>
   )
 }
