@@ -87,7 +87,7 @@ His Youtube Channels Names Are Sarnendu Official And Career Champions, You Can V
 
   </div>
 
-  <div className='author-card'>
+  {/* <div className='author-card'>
     <div className='author'>
       <center>
   <Image
@@ -140,7 +140,7 @@ His Youtube Channels Names Are Sarnendu Official And Career Champions, You Can V
     </center>
 
   </div>
-  </div>
+  </div> */}
 
   </div>
     <Footer />
