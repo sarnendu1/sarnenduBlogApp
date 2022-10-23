@@ -458,7 +458,7 @@ if(sidebar.classList.contains("open")){
   </div>
   </div>
 
-  {/* <div className="sidebar-display">
+  <div className="sidebar-display">
     <div className="sidebar">
     <div className="logo-details">
      
@@ -519,7 +519,7 @@ if(sidebar.classList.contains("open")){
      </li>
     </ul>
   </div>
-  </div> */}
+  </div>
     <Footer />
         
         <Script async="async" data-cfasync="false" src="//upgulpinon.com/1?z=4964524" />
