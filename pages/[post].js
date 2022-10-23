@@ -458,19 +458,14 @@ if(sidebar.classList.contains("open")){
   </div>
   </div>
 
-  <div className="sidebar-display">
+  {/* <div className="sidebar-display">
     <div className="sidebar">
     <div className="logo-details">
-      {/* <i class='bx bxl-c-plus-plus icon'></i> */}
-        {/* <div class="logo_name">CodingLab</div> */}
+     
         <i className='bx bx-menu' id="btn" ></i>
     </div>
     <ul className="nav-list">
-      {/* <li>
-          <i className='bx bx-search' ></i>
-         <input type="text" placeholder="Search..." onChange={(e)=>search(e.target.value)}/>
-         <span className="tooltip">Search</span>
-      </li> */}
+
       <li>
         <Link href="/about">
         <a>
@@ -524,7 +519,7 @@ if(sidebar.classList.contains("open")){
      </li>
     </ul>
   </div>
-  </div>
+  </div> */}
     <Footer />
         
         <Script async="async" data-cfasync="false" src="//upgulpinon.com/1?z=4964524" />
