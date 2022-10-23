@@ -314,7 +314,7 @@ if(sidebar.classList.contains("open")){
                 Author:
                 <b className="singlePostAuthor">
                   <Link passHref href="https://sarnendu1.github.io/portfolio/">
-                   <span className="color5">Sarnendu Das</span>
+                   <span className="color5">{data.author}</span>
                   </Link>
                 </b>
               </span>
